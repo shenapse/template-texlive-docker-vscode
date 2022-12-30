@@ -1,0 +1,29 @@
+\documentclass{report}
+\usepackage{docmute}
+\usepackage{mystyle}
+\usepackage{commands}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\mathtoolsset{showonlyrefs=true}
+
+\begin{document}
+%%% TITLE %%%
+\input{title}
+\thispagestyle{empty}
+\clearpage
+%%% FRONT %%%
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+% \input{summary}
+\input{preface}
+\clearpage
+\input{notations}
+\clearpage
+%%% BODY %%%
+\pagenumbering{arabic}
+\input{chapter1}
+%%% BACK %%%
+\clearpage
+\input{back}
+\end{document}

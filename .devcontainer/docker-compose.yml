@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  dev-texlive:
+    image: shena4746/alpine-texlive-base:1.0
+    command: sleep infinity
+    volumes:
+      - ../:/workdir

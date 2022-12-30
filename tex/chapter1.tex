@@ -1,0 +1,28 @@
+\documentclass{report}
+%\documentclass[a4paper,12pt]{article}
+\usepackage{mystyle}
+\usepackage{commands}
+\mathtoolsset{showonlyrefs=true}
+
+% remember that docmute package neglects all the preambles of the included .tex files. 
+\begin{document}
+% note that \chapter is not available for article
+\chapter{All We Need Is Love.}
+\section{Introduction}
+\begin{thm}
+	The following equality holds.
+	\begin{equation}
+		\left( \int_0^\infty \frac{\sin x}{\sqrt x} dx \right)^2 =
+		\sum_{k=0}^\infty \frac{(2k)!}{2^{2k}(k!)^2} \frac{1}{2k+1} =
+		\prod_{k=1}^\infty \frac{4k^2}{4k^2-1} =
+		\frac{\pi}{2}.
+	\end{equation}
+\end{thm}
+\begin{prf}
+	Write a clear proof.
+	\qed\end{prf}
+
+\begin{rem}
+	Some comments.
+	\fin\end{rem}
+\end{document}
