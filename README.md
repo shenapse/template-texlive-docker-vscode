@@ -5,7 +5,7 @@
 - A TeXLive environment ready to use with VSCode Remote-Container
 - A ready-made build recipe with latexmk + lualatex
 - Pre-configured tools for editors such as latexindent, synctex and chktex
-- Various snippets that extends TeX Workshop ones
+- Various snippets that extends LaTeX Workshop ones
 - A Tex template using docmute package
 
 ## Usage
