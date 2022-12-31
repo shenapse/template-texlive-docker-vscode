@@ -13,5 +13,6 @@
     },
     "shutdownAction": "stopCompose",
     // locate hsnips file
-    "onCreateCommand": "sh ./script/setup-hsnips.sh"
+    "onCreateCommand": "sh ./script/setup-hsnips.sh",
+    //"postStartCommand": "command that you want to run every time remote connection is established"
 }
