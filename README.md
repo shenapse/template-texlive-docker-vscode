@@ -23,7 +23,7 @@
   - `.devcontainer/docker-compose.yml` defines the docker image this repo uses.
   - if you need more packages than the image provides, you may want to extend the image or write a script to install the packages. (see `.devcontainer/devcontainer.json`)
 - About snippets
-  - this repository uses two different types of snippets: static one and dynamic ones.
+  - this repository uses two different types of snippets: static and dynamic ones.
   - static:
     - those provided by LaTeX Workshop extension
     - those defined in `./.vscode/latex.code-snippets` whose usage is available at [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets).
