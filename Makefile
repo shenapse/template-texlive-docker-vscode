@@ -1,5 +1,5 @@
-TAG=1.0
-VERSION=1.0
+VERSION=0.1.0
+TAG=${VERSION}
 IMAGE=shena4746/alpine-texlive-base:${VERSION}
 
 ifeq ($(OS),Windows_NT)
