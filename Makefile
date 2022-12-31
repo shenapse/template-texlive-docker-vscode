@@ -15,7 +15,7 @@ shell:
 release:
 	git tag "v${TAG}"; \
 	git push origin "v${TAG}"; \
-	gh release create "v${TAG}" -t "v${TAG}" -F changelog.md
+	gh release create "v${TAG}" -t "v${TAG}" -F CHANGELOG.md
 
 .PHONY: unrelease
 unrelease:
