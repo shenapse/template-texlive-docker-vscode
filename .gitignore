@@ -1,2 +1,34 @@
+/.history/
+# latex auxiliary files
+*.aux
+*.fdb_latexmk
+*.fls
 *.log
+*.lot
+*.out
+*.gz
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
+*.run.xml
+
+# intermediate docs
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+
+# Build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
 *.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
