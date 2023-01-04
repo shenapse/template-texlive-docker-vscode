@@ -5,7 +5,8 @@
 	"extensions": [
 		"draivin.hsnips",
 		"streetsidesoftware.code-spell-checker",
-		"James-Yu.latex-workshop"
+		"James-Yu.latex-workshop",
+		"eamodio.gitlens",
 	],
 	"workspaceFolder": "/workdir",
 	"settings": {
