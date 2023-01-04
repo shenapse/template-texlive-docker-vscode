@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.0] - 2023-01-04
+
+### Added
+
+- bundle a script to install packages via `tlmgr` after container gets started.
+
+### Fix
+
+- explicitly specify path for latexindent and synctex
+
 ## [0.1.0] - 2022-12-31
 
 ### Changed

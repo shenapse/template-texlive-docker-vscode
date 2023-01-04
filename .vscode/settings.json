@@ -1,97 +1,98 @@
 // settings here are all for env in docker container
 {
-    // viewer
-    "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.view.pdf.zoom": "page-width",
-    // settings for editor
-    "[latex]": {
-        "editor.wordWrap": "on",
-        "editor.formatOnSave": true,
-        "editor.formatOnPaste": true,
-        "files.trimTrailingWhitespace": true,
-        "editor.insertSpaces": true,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.defaultFormatter": "James-Yu.latex-workshop"
-    },
-    // intellisense
-    "latex-workshop.intellisense.package.enabled": true,
-    // latex-workshop general
-    "latex-workshop.message.update.show": false,
-    // build
-    "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/out",
-    "latex-workshop.latex.autoBuild.run": "never",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.latex.clean.method": "glob",
-    "latex-workshop.latex.recipe.default": "latexmk-lua",
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "latexmk-lua",
-            "tools": [
-                "latexmk-lualatex"
-            ],
-        },
-    ],
-    "latex-workshop.latex.tools": [
-        {
-            "name": "latexmk-lualatex",
-            "command": "latexmk",
-            "args": [
-                "-file-line-error",
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-halt-on-error",
-                "-outdir=%OUTDIR%",
-                "-gg",
-                "-pdflua",
-                "%DOC%",
-            ],
-            "env": {}
-        }
-    ],
-    "latex-workshop.latex.clean.fileTypes": [
-        "*.aux",
-        "*.bbl",
-        "*.blg",
-        "*.idx",
-        "*.ind",
-        "*.lof",
-        "*.lot",
-        "*.out",
-        "*.toc",
-        "*.acn",
-        "*.acr",
-        "*.alg",
-        "*.glg",
-        "*.glo",
-        "*.gls",
-        "*.ist",
-        "*.fls",
-        //"*.log",
-        "*.fdb_latexmk",
-        "*.snm",
-        "*.nav",
-        "*.dvi"
-    ],
-    "latex-workshop.latexindent.args": [
-        "%TMPFILE%",
-        "-c=%DIR%/",
-        "-y=defaultIndent: '%INDENT%'"
-    ],
-    // bibtex
-    "latex-workshop.bibtex-format.sort.enabled": true,
-    "latex-workshop.bibtex-fields.sort.enabled": true,
-    // synctex 
-    "latex-workshop.view.pdf.internal.synctex.keybinding": "ctrl-click",
-    "latex-workshop.synctex.afterBuild.enabled": true,
-    "latex-workshop.synctex.path": "synctex",
-    "latex-workshop.synctex.synctexjs.enabled": true,
-    // other settings
-    "cSpell.customDictionaries": {
-        "custom-dictionary-workspace": {
-            "name": "custom-dictionary-workspace",
-            "path": "${workspaceFolder}/.cspell/custom-dictionary-workspace.txt",
-            "addWords": true,
-            "scope": "workspace"
-        }
-    },
+	// viewer
+	"latex-workshop.view.pdf.viewer": "tab",
+	"latex-workshop.view.pdf.zoom": "page-width",
+	// settings for editor
+	"[latex]": {
+		"editor.wordWrap": "on",
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"files.trimTrailingWhitespace": true,
+		"editor.insertSpaces": true,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.defaultFormatter": "James-Yu.latex-workshop"
+	},
+	// intellisense
+	"latex-workshop.intellisense.package.enabled": true,
+	// latex-workshop general
+	"latex-workshop.message.update.show": false,
+	// build
+	"latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/out",
+	"latex-workshop.latex.autoBuild.run": "never",
+	"latex-workshop.latex.autoClean.run": "onBuilt",
+	"latex-workshop.latex.clean.method": "glob",
+	"latex-workshop.latex.recipe.default": "latexmk-lua",
+	"latex-workshop.latex.recipes": [
+		{
+			"name": "latexmk-lua",
+			"tools": [
+				"latexmk-lualatex"
+			],
+		},
+	],
+	"latex-workshop.latex.tools": [
+		{
+			"name": "latexmk-lualatex",
+			"command": "latexmk",
+			"args": [
+				"-file-line-error",
+				"-synctex=1",
+				"-interaction=nonstopmode",
+				"-halt-on-error",
+				"-outdir=%OUTDIR%",
+				"-gg",
+				"-pdflua",
+				"%DOC%",
+			],
+			"env": {}
+		}
+	],
+	"latex-workshop.latex.clean.fileTypes": [
+		"*.aux",
+		"*.bbl",
+		"*.blg",
+		"*.idx",
+		"*.ind",
+		"*.lof",
+		"*.lot",
+		"*.out",
+		"*.toc",
+		"*.acn",
+		"*.acr",
+		"*.alg",
+		"*.glg",
+		"*.glo",
+		"*.gls",
+		"*.ist",
+		"*.fls",
+		//"*.log",
+		"*.fdb_latexmk",
+		"*.snm",
+		"*.nav",
+		"*.dvi"
+	],
+	"latex-workshop.latexindent.path": "/usr/local/bin/texlive/latexindent",
+	"latex-workshop.latexindent.args": [
+		"%TMPFILE%",
+		"-c=%DIR%/",
+		"-y=defaultIndent: '%INDENT%'"
+	],
+	// bibtex
+	"latex-workshop.bibtex-format.sort.enabled": true,
+	"latex-workshop.bibtex-fields.sort.enabled": true,
+	// synctex 
+	"latex-workshop.view.pdf.internal.synctex.keybinding": "ctrl-click",
+	"latex-workshop.synctex.afterBuild.enabled": true,
+	"latex-workshop.synctex.path": "/usr/local/bin/texlive/synctex",
+	"latex-workshop.synctex.synctexjs.enabled": true,
+	// other settings
+	"cSpell.customDictionaries": {
+		"custom-dictionary-workspace": {
+			"name": "custom-dictionary-workspace",
+			"path": "${workspaceFolder}/.cspell/custom-dictionary-workspace.txt",
+			"addWords": true,
+			"scope": "workspace"
+		}
+	},
 }
