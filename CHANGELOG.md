@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2023-01-04
+
+### Added
+
+- switch to the docker shena4746/alpine-texlive-base:0.2.0, which has git
+- install gitlens via devcontainer
+
 ## [0.2.0] - 2023-01-04
 
 ### Added
