@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.3.0] - 2023-01-04
 
+### Changed
+
+- update docker image from texlive 2022 to 2023
+
+## [0.3.0] - 2023-01-04
+
 ### Added
 
 - switch to the docker shena4746/alpine-texlive-base:0.2.0, which has git
