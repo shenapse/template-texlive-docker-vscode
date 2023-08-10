@@ -1,4 +1,7 @@
 /.history/
+# files produced by latexdiff
+*diff*.tex
+*diff*.pdf
 # latex auxiliary files
 *.aux
 *.fdb_latexmk
@@ -32,3 +35,6 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+
+# latexindent
+__latexindent_temp.tex
