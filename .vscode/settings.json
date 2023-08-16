@@ -1,35 +1,56 @@
 // settings here are all for env in docker container
 {
-	// viewer
+	// ----------------- viewer -----------------
 	"latex-workshop.view.pdf.viewer": "tab",
 	"latex-workshop.view.pdf.zoom": "page-width",
-	// settings for editor
+	"latex-workshop.view.pdf.autoRefresh.enabled": true,
+	// -------- hyper snipet extension --------
+	"hsnips.hsnipsPath": "${workspaceFolder}/.vscode",
+	// if you write unicode on source codes
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	// --------------- editor ---------------
+	"cSpell.customDictionaries": {
+		"custom-dictionary-workspace": {
+			"name": "custom-dictionary-workspace",
+			"path": "${workspaceFolder}/.cspell/custom-dictionary-workspace.txt",
+			"addWords": true,
+			"scope": "workspace"
+		}
+	},
 	"[latex]": {
 		"editor.wordWrap": "on",
-		"editor.formatOnSave": true,
-		"editor.formatOnPaste": true,
+		"editor.formatOnSave": false,
+		"editor.formatOnPaste": false,
 		"files.trimTrailingWhitespace": true,
+		"files.trimFinalNewlines": true,
 		"editor.insertSpaces": true,
 		"editor.suggest.snippetsPreventQuickSuggestions": false,
-		"editor.defaultFormatter": "James-Yu.latex-workshop"
+		"editor.defaultFormatter": "James-Yu.latex-workshop",
 	},
-	// intellisense
+	// --------------- LaTeXWorkshop ---------------
 	"latex-workshop.intellisense.package.enabled": true,
-	// latex-workshop general
 	"latex-workshop.message.update.show": false,
 	// build
 	"latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/out",
 	"latex-workshop.latex.autoBuild.run": "never",
 	"latex-workshop.latex.autoClean.run": "onBuilt",
 	"latex-workshop.latex.clean.method": "glob",
-	"latex-workshop.latex.recipe.default": "latexmk-lua",
+	"latex-workshop.latex.recipe.default": "first",
 	"latex-workshop.latex.recipes": [
 		{
-			"name": "latexmk-lua",
+			"name": "build with lualatex",
 			"tools": [
-				"latexmk-lualatex"
+				"latexmk-lualatex",
+				"dump package info"
 			],
 		},
+		{
+			"name": "get diff",
+			"tools": [
+				"get diff",
+				"open diff file"
+			],
+		}
 	],
 	"latex-workshop.latex.tools": [
 		{
@@ -41,12 +62,37 @@
 				"-interaction=nonstopmode",
 				"-halt-on-error",
 				"-outdir=%OUTDIR%",
-				"-gg",
-				"-pdflua",
+				"-lualatex",
 				"%DOC%",
 			],
 			"env": {}
-		}
+		},
+		{
+			"name": "get diff",
+			"command": "sh",
+			"args": [
+				"%WORKSPACE_FOLDER%/script/get-diff.sh",
+				"%DOC%.tex",
+				"%OUTDIR%"
+			],
+			"env": {}
+		},
+		{
+			"name": "open diff file",
+			"command": "code",
+			"args": [
+				"%DOC%-diffHEAD.tex",
+			],
+			"env": {}
+		},
+		{
+			"name": "dump package info",
+			"command": "sh",
+			"args": [
+				"%WORKSPACE_FOLDER%/script/dump-package-info.sh",
+			],
+			"env": {}
+		},
 	],
 	"latex-workshop.latex.clean.fileTypes": [
 		"*.aux",
@@ -70,12 +116,16 @@
 		"*.fdb_latexmk",
 		"*.snm",
 		"*.nav",
-		"*.dvi"
+		"*.dvi",
+		"*.run.xml"
 	],
 	"latex-workshop.latexindent.path": "/usr/local/bin/texlive/latexindent",
 	"latex-workshop.latexindent.args": [
 		"%TMPFILE%",
 		"-c=%DIR%/",
+		"-r",
+		"-l",
+		"-m",
 		"-y=defaultIndent: '%INDENT%'"
 	],
 	// bibtex
@@ -85,14 +135,19 @@
 	"latex-workshop.view.pdf.internal.synctex.keybinding": "ctrl-click",
 	"latex-workshop.synctex.afterBuild.enabled": true,
 	"latex-workshop.synctex.path": "/usr/local/bin/texlive/synctex",
+	// chktex
+	"latex-workshop.linting.chktex.enabled": true,
+	"latex-workshop.linting.chktex.exec.path": "/usr/local/bin/texlive/chktex",
+	// lacheck
+	"latex-workshop.linting.lacheck.enabled": true,
+	"latex-workshop.linting.lacheck.exec.path": "/usr/local/bin/texlive/lacheck",
 	"latex-workshop.synctex.synctexjs.enabled": true,
-	// other settings
-	"cSpell.customDictionaries": {
-		"custom-dictionary-workspace": {
-			"name": "custom-dictionary-workspace",
-			"path": "${workspaceFolder}/.cspell/custom-dictionary-workspace.txt",
-			"addWords": true,
-			"scope": "workspace"
-		}
-	},
+	// file detection
+	"latex-workshop.latex.search.rootFiles.include": [
+		"%WORKSPACE_FOLDER%/tex"
+	],
+	// suppress warnings 
+	"latex-workshop.message.latexlog.exclude.": [
+		"Unknown document division name.*"
+	],
 }
