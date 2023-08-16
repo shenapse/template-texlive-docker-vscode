@@ -1,4 +1,13 @@
+# this is a user setting file for chktex.
+# default setting file (which should not be modified) is located at 
+# /usr/local/texlive/2023/texmf-dist/chktex/chktexrc
+
 CmdLine
 {
-    -n12
+}
+
+UserWarn
+{
+    \lookatme
+	\unknown
 }
