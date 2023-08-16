@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # locate latex.hsnips at script directory
 file='latex.hsnips'
 if [ ! -f ./.vscode/${file} ]; then
