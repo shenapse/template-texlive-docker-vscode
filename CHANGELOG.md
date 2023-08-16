@@ -7,11 +7,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [0.3.0] - 2023-01-04
+## [0.3.2] - 2023-08-16
+
+### Added
+
+- place user setting file ([.latexindent.yaml](/.latexindent.yaml)) for latexindent
+- define "get diff" (LaTeX workshop) recipe using [get-diff.sh](/script/get-diff.sh). it runs latexdiff-vc and produces diff files of the current tex file and HEAD.
+- [dump-package-info.sh](/script/dump-package-info.sh) is set to run every time build recipe is called. it should keep track of the latest package info.
+
+### Changed
+
+- update docker image to shena4746/alpine-texlive-base:0.3.3. See [Changelog](https://github.com/Shena4746/alpine-texlive-base/releases/tag/v0.3.3) for detail.
+- organize preset snippets and commands (including experimental utf ones)
+- minor tuning for setting.json
+
+## [0.3.1] - 2023-08-02
 
 ### Changed
 
 - update docker image from texlive 2022 to 2023
+- organize snippets
 
 ## [0.3.0] - 2023-01-04
 

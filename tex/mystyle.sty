@@ -15,8 +15,15 @@
 \newtheorem{dfn}[thm]{Definition}
 \newtheorem*{dfn*}{Definition}
 
-\theoremstyle{remark}
-\newtheorem*{prf}{Proof}
+% rename proof env as prf
+\let\oldproof\proof
+\let\endoldproof\endproof
+\renewenvironment{proof}{
+	\begin{prf}
+		}{
+	\end{prf}
+}
+\newenvironment{prf}{\oldproof}{\endoldproof}
 
 \theoremstyle{definition}
 \newtheorem*{rem*}{Remark}
