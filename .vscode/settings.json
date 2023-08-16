@@ -5,7 +5,6 @@
 	"latex-workshop.view.pdf.zoom": "page-width",
 	"latex-workshop.view.pdf.autoRefresh.enabled": true,
 	// -------- hyper snipet extension --------
-	"hsnips.hsnipsPath": "${workspaceFolder}/.vscode",
 	// if you write unicode on source codes
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	// --------------- editor ---------------
