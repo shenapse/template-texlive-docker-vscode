@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - place user setting file ([.latexindent.yaml](/.latexindent.yaml)) for latexindent
 - define "get diff" (LaTeX workshop) recipe using [get-diff.sh](/script/get-diff.sh). it runs latexdiff-vc and produces diff files of the current tex file and HEAD.
 - [dump-package-info.sh](/script/dump-package-info.sh) is set to run every time build recipe is called. it should keep track of the latest package info.
+- sample keybindings.json
 
 ### Changed
 
