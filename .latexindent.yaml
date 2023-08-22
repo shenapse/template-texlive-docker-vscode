@@ -210,8 +210,8 @@ replacements:
         lookForThis: 1
         when: after
     -
-        # Remove white space before comma
-        substitution: s/\h+,/,/g
+        # Remove space before comma and punctuation
+        substitution: s/\h+([,\.])/$1/g
         lookForThis: 1
         when: after
     -
@@ -271,6 +271,8 @@ replacements:
             $body =~ s@(\^|\_)([a-zA-Z0-9]+)@$1\{$2\}@sg;
         # add space before "\"
             $body =~ s@(?<=\w)\\@ \\@sg;
+        # add space around <>
+            $body =~ s@(?<!\\left|\\right)\h*(<|>)\h*(?!\\left|\\right)@ $1 @sg;
             $begin . $body . $end /sxge;
         lookForThis: 1
         when: before
@@ -291,6 +293,8 @@ replacements:
             $body =~ s@\h*(?<![\{:])([\+\-=\/\*])(?![\}:])\h*@ $1 @sg;
         # add space before "\"
             $body =~ s@(?<=\w)\\@ \\@sg;
+        # add space around <>
+            $body =~ s@(?<!\\left|\\right)\h*(<|>)\h*(?!\\left|\\right)@ $1 @sg;
             $body;/sxge
         lookForThis: 1
         when: after
