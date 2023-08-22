@@ -12,7 +12,7 @@
 		],
 		"body": [
 			"\\begin{${1}}",
-			"$0",
+			"$2",
 			"\\end{${1}}"
 		]
 	},
@@ -25,7 +25,7 @@
 		],
 		"body": [
 			"\\begin{equation}",
-			"$0",
+			"$1",
 			"\\end{equation}"
 		]
 	},
@@ -37,7 +37,7 @@
 		],
 		"body": [
 			"\\begin{equation*}",
-			"$0",
+			"$1",
 			"\\end{equation*}"
 		]
 	},

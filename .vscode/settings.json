@@ -136,6 +136,7 @@
 	"latex-workshop.synctex.path": "/usr/local/bin/texlive/synctex",
 	// chktex
 	"latex-workshop.linting.chktex.enabled": true,
+	"latex-workshop.linting.run": "onSave",
 	"latex-workshop.linting.chktex.exec.path": "/usr/local/bin/texlive/chktex",
 	// lacheck
 	"latex-workshop.linting.lacheck.enabled": true,

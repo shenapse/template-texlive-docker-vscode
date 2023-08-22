@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{biblatex}
-\usepackage{mypackages}
+\usepackage{mystyle}
+\usepackage{commands}
 \addbibresource{bibliography.bib}
 \begin{document}
 
@@ -15,6 +16,7 @@ See Section~\ref{sec:headings}.
 	\xi_{ij}(t) = P(x_{t} = i,x_{t + 1} = j|y,v,w; \theta) \\
 	= \frac{\alpha_{i}(t) a^{w_{t}}_{ij} \beta_{j}(t + 1) b^{v_{t + 1}}_{j}(y_{t + 1})}{\sum_{i = 1}^{N} \sum_{j = 1}^{N} \alpha_{i}(t) a^{w_{t}}_{ij} \beta_{j}(t + 1) b^{v_{t + 1}}_{j}(y_{t + 1})}
 \end{equation}
+
 \cite{author:title}
 
 \addcontentsline{toc}{section}{References}

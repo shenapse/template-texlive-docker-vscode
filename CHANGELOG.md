@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.3] - 2023-08-23
+
+### Changed
+
+- update snippets and commands incorporating those in [my other repository for snippets.][https://github.com/Shena4746/latex-snippets-for-vscode]
+- delete and move snippets and commands relating UTF to the above repository.
+
+### Added
+
+- new formatting rule for latexindent: add space around <>, remove spaces before comma and punctuation.
+
 ## [0.3.2] - 2023-08-16
 
 ### Added

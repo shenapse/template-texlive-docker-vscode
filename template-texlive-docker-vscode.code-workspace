@@ -4,5 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"hsnips.hsnipsPath": ".vscode"
+	}
 }
