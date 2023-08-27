@@ -1,7 +1,10 @@
-#!/bin/bash
-# locate latex.hsnips at script directory
+#!/bin/bash -eux
+
+# locate latex.hsnips at .vscode directory
 workspaceFolder=$(readlink -f $(dirname $(dirname $0)))
 file='latex.hsnips'
-if [ ! -f ${workspaceFolder}/.vscode/${file} ]; then
-    wget -P ./.vscode https://raw.githubusercontent.com/Shena4746/latex-snippets-for-vscode/main/.vscode/${file}
+dir_vscode="${workspaceFolder}/.vscode"
+
+if [ ! -f ${dir_vscode}/${file} ]; then
+    wget -P ${dir_vscode} https://raw.githubusercontent.com/Shena4746/latex-snippets-for-vscode/main/.vscode/${file}
 fi
