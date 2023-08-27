@@ -1,4 +1,4 @@
-IMAGE_TAG=0.3.2
+IMAGE_TAG=0.3.4
 IMAGE=shena4746/alpine-texlive-base:${IMAGE_TAG}
 
 ifeq ($(OS),Windows_NT)
