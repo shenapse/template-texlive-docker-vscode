@@ -5,4 +5,4 @@ services:
     image: shena4746/alpine-texlive-base:0.3.4
     command: sleep infinity
     volumes:
-      - ../:/workdir
+      - ${PWD}/:/workdir

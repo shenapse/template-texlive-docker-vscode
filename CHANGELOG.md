@@ -12,7 +12,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 - update docker image to shena4746/alpine-texlive-base:0.3.4. See [Changelog](https://github.com/Shena4746/alpine-texlive-base/releases/tag/v0.3.4) for detail.
-- place `.bashrc_docker` at workspace. it is auto-sourced after the container is started.
 - restrict replacement rule of latexindent to minimum domain. add minor replacement rules.  
 
 ## [0.3.3] - 2023-08-23
