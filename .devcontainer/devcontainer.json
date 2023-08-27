@@ -2,18 +2,21 @@
 	"name": "texlive-alpine-vscode",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "dev-texlive",
-	"extensions": [
-		"draivin.hsnips",
-		"streetsidesoftware.code-spell-checker",
-		"James-Yu.latex-workshop",
-		"eamodio.gitlens",
-		"svipas.control-snippets"
-	],
-	"workspaceFolder": "/workdir",
-	"settings": {
-		"hsnips.hsnipsPath": "/workdir/.vscode"
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"hsnips.hsnipsPath": "/workdir/.vscode"
+			},
+			"extensions": [
+				"draivin.hsnips",
+				"streetsidesoftware.code-spell-checker",
+				"James-Yu.latex-workshop",
+				"eamodio.gitlens",
+				"svipas.control-snippets"
+			]
+		}
 	},
+	"workspaceFolder": "/workdir",
 	"shutdownAction": "stopCompose",
-	"onCreateCommand": "sh ./script/setup-hsnips.sh",
-	"postStartCommand": "sh ./script/post-install.sh & source ./.bashrc_docker"
+	"postStartCommand": "sh ./script/setup-hsnips.sh & sh ./script/post-install.sh"
 }
