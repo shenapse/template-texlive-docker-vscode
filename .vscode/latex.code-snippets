@@ -24,9 +24,9 @@
 			"meq",
 		],
 		"body": [
-			"\\begin{equation}",
-			"$1",
-			"\\end{equation}"
+			"\\begin{equation}$1",
+			"\\end{equation}",
+			"%",
 		]
 	},
 	"begin/end void equation": {
@@ -36,9 +36,9 @@
 			"meqv"
 		],
 		"body": [
-			"\\begin{equation*}",
-			"$1",
-			"\\end{equation*}"
+			"\\begin{equation*}$1",
+			"\\end{equation*}",
+			"%"
 		]
 	},
 	"begin/end aligned": {
@@ -49,7 +49,7 @@
 		],
 		"body": [
 			"\\begin{aligned}",
-			"$0",
+			"$1",
 			"\\end{aligned}"
 		]
 	},
@@ -60,9 +60,9 @@
 			"mgat",
 		],
 		"body": [
-			"\\begin{gather}",
-			"$0",
-			"\\end{gather}"
+			"\\begin{gather}$1",
+			"\\end{gather}",
+			"%"
 		]
 	},
 	"begin/end gather*": {
@@ -73,9 +73,9 @@
 			"gav"
 		],
 		"body": [
-			"\\begin{gather*}",
-			"$0",
-			"\\end{gather*}"
+			"\\begin{gather*}$1",
+			"\\end{gather*}",
+			"%"
 		]
 	},
 	"begin/end cases": {
