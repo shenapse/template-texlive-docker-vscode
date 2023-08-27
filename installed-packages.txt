@@ -10881,3 +10881,1333 @@ i xltxtra: "Extras" for LaTeX users of XeTeX
 i xunicode: Generate Unicode characters from accented glyphs
 i zapfchan: URW 'Base 35' font pack for LaTeX
 i zapfding: URW 'Base 35' font pack for LaTeX
+i ae: Virtual fonts for T1 encoded CMR-fonts
+i amscls: AMS document classes for LaTeX
+i amsfonts: TeX fonts from the American Mathematical Society
+i amsmath: AMS mathematical facilities for LaTeX
+i anysize: A simple package to set up document margins
+i atbegshi: Execute stuff at \shipout time
+i attachfile2: Attach files into PDF
+i attachfile2.x86_64-linuxmusl: x86_64-linuxmusl files of attachfile2
+i atveryend: Hooks at the very end of a document
+i auxhook: Hooks for auxiliary files
+i avantgar: URW 'Base 35' font pack for LaTeX
+i babel: Multilingual support for LaTeX, LuaLaTeX, XeLaTeX, and Plain TeX
+i babel-english: Babel support for English
+i babelbib: Multilingual bibliographies
+i beamer: A LaTeX class for producing presentations and slides
+i biber: A BibTeX replacement for users of BibLaTeX
+i biber.x86_64-linuxmusl: x86_64-linuxmusl files of biber
+i biblatex: Sophisticated Bibliographies in LaTeX
+i bibtex: Process bibliographies (bib files) for LaTeX or other formats
+i bibtex.x86_64-linuxmusl: x86_64-linuxmusl files of bibtex
+i bigintcalc: Integer calculations on very large numbers
+i bitset: Handle bit-vector datatype
+i bookman: URW 'Base 35' font pack for LaTeX
+i bookmark: A new bookmark (outline) organization for hyperref
+i booktabs: Publication quality tables in LaTeX
+i breqn: Automatic line breaking of displayed equations
+i bxpapersize: Synchronize output paper size with layout paper size
+i cancel: Place lines through maths formulae
+i caption: Customising captions in floating environments
+i carlisle: David Carlisle's small packages
+i charter: Charter fonts
+i chktex: Check for errors in LaTeX documents
+i chktex.x86_64-linuxmusl: x86_64-linuxmusl files of chktex
+i cite: Improved citation handling in LaTeX
+i cm: Computer Modern fonts
+i cm-super: CM-Super family of fonts
+i cmap: Make PDF files searchable and copyable
+i cmextra: Knuth's local information
+i collection-basic: Essential programs and files
+i collection-fontsrecommended: Recommended fonts
+i collection-latex: LaTeX fundamental packages
+i collection-latexrecommended: LaTeX recommended packages
+i colorprofiles: Collection of free ICC profiles
+i colortbl: Add colour to LaTeX tables
+i courier: URW 'Base 35' font pack for LaTeX
+i crop: Support for cropmarks
+i ctable: Flexible typesetting of table and figure floats using key/value directives
+i dehyph: German hyphenation patterns for traditional orthography
+i docmute: Input files ignoring LaTeX preamble, etc
+i dvipdfmx: An extended version of dvipdfm
+i dvipdfmx.x86_64-linuxmusl: x86_64-linuxmusl files of dvipdfmx
+i dvips: A DVI to PostScript driver
+i dvips.x86_64-linuxmusl: x86_64-linuxmusl files of dvips
+i ec: Computer modern fonts in T1 and TS1 encodings
+i enctex: A TeX extension that translates input on its way into TeX
+i epstopdf-pkg: Call epstopdf "on the fly"
+i eqparbox: Create equal-widthed parboxes
+i eso-pic: Add picture commands (or backgrounds) to every page
+i etex: An extended version of TeX, from the NTS project
+i etex-pkg: E-TeX support package
+i etexcmds: Avoid name clashes with e-TeX commands
+i etoolbox: e-TeX tools for LaTeX
+i euenc: Unicode font encoding definitions for XeTeX
+i euler: Use AMS Euler fonts for math
+i euro: Provide Euro values for national currency amounts
+i euro-ce: Euro and CE sign font
+i eurosym: Metafont and macros for Euro sign
+i everysel: Provides hooks into \selectfont
+i everyshi: Take action at every \shipout
+i extsizes: Extend the standard classes' size options
+i fancybox: Variants of \fbox and other games with boxes
+i fancyhdr: Extensive control of page headers and footers in LaTeX2e
+i fancyref: A LaTeX package for fancy cross-referencing
+i fancyvrb: Sophisticated verbatim text
+i filehook: Hooks for input files
+i firstaid: First aid for external LaTeX files and packages that need updating
+i fix2col: Fix miscellaneous two column mode features
+i float: Improved interface for floating objects
+i fontspec: Advanced font selection in XeLaTeX and LuaLaTeX
+i footmisc: A range of footnote options
+i footnotehyper: hyperref aware footnote.sty
+i fp: Fixed point arithmetic
+i fpl: SC and OsF fonts for URW Palladio L
+i geometry: Flexible and complete interface to document dimensions
+i gettitlestring: Clean up title references
+i glyphlist: Adobe Glyph List and TeX extensions
+i graphics: The LaTeX standard graphics bundle
+i graphics-cfg: Sample configuration files for LaTeX color and graphics
+i graphics-def: Colour and graphics option files
+i grfext: Manipulate the graphics package's list of extensions
+i grffile: Extended file name support for graphics (legacy package)
+i helvetic: URW 'Base 35' font pack for LaTeX
+i hologo: A collection of logos with bookmark support
+i hopatch: Load patches for packages
+i hycolor: Implements colour for packages hyperref and bookmark
+i hyperref: Extensive support for hypertext in LaTeX
+i hyph-utf8: Hyphenation patterns expressed in UTF-8
+i hyphen-base: core hyphenation support files
+i hyphenex: US English hyphenation exceptions file
+i ifplatform: Conditionals to test which platform is being used
+i iftex: Am I running under pdfTeX, XeTeX or LuaTeX?
+i index: Extended index for LaTeX including multiple indexes
+i infwarerr: Complete set of information/warning/error message macros
+i intcalc: Expandable arithmetic operations with integers
+i jknapltx: Miscellaneous packages by Joerg Knappen
+i knuth-lib: Core TeX and Metafont sources from Knuth
+i knuth-local: Knuth's local information
+i koma-script: A bundle of versatile classes and packages
+i kpathsea: Path searching library for TeX-related files
+i kpathsea.x86_64-linuxmusl: x86_64-linuxmusl files of kpathsea
+i kvdefinekeys: Define keys for use in the kvsetkeys package
+i kvoptions: Key value format for package options
+i kvsetkeys: Key value parser with default handler support
+i l3backend: LaTeX3 backend drivers
+i l3experimental: Experimental LaTeX3 concepts
+i l3kernel: LaTeX3 programming conventions
+i l3packages: High-level LaTeX3 concepts
+i lacheck: LaTeX checker
+i lacheck.x86_64-linuxmusl: x86_64-linuxmusl files of lacheck
+i latex: A TeX macro package that defines LaTeX
+i latex-bin: LaTeX executables and man pages
+i latex-bin.x86_64-linuxmusl: x86_64-linuxmusl files of latex-bin
+i latex-fonts: A collection of fonts used in LaTeX distributions
+i latex-lab: LaTeX laboratory
+i latexbug: Bug-classification for LaTeX related bugs
+i latexconfig: configuration files for LaTeX-related formats
+i latexdiff: Determine and mark up significant differences between LaTeX files
+i latexdiff.x86_64-linuxmusl: x86_64-linuxmusl files of latexdiff
+i latexindent: Indent a LaTeX document, highlighting the programming structure
+i latexindent.x86_64-linuxmusl: x86_64-linuxmusl files of latexindent
+i latexmk: Fully automated LaTeX document generation
+i latexmk.x86_64-linuxmusl: x86_64-linuxmusl files of latexmk
+i latexpand: Expand \input and \include in a LaTeX document
+i latexpand.x86_64-linuxmusl: x86_64-linuxmusl files of latexpand
+i letltxmacro: Let assignment for LaTeX macros
+i lineno: Line numbers on paragraphs
+i listings: Typeset source code listings using LaTeX
+i lm: Latin modern fonts in outline formats
+i lm-math: OpenType maths fonts for Latin Modern
+i logreq: Support for automation of the LaTeX workflow
+i ltxcmds: Some LaTeX kernel commands for general use
+i ltxmisc: Miscellaneous LaTeX packages, etc
+i lua-alt-getopt: Process application arguments the same way as getopt_long
+i lua-uni-algos: Unicode algorithms for LuaTeX
+i luahbtex: LuaTeX with HarfBuzz library for glyph shaping
+i luahbtex.x86_64-linuxmusl: x86_64-linuxmusl files of luahbtex
+i lualatex-math: Fixes for mathematics-related LuaLaTeX issues
+i lualibs: Additional Lua functions for LuaTeX macro programmers
+i luaotfload: OpenType 'loader' for Plain TeX and LaTeX
+i luaotfload.x86_64-linuxmusl: x86_64-linuxmusl files of luaotfload
+i luatex: The LuaTeX engine
+i luatex.x86_64-linuxmusl: x86_64-linuxmusl files of luatex
+i lwarp: Converts LaTeX to HTML
+i lwarp.x86_64-linuxmusl: x86_64-linuxmusl files of lwarp
+i makecmds: The new \makecommand command always (re)defines a command
+i makeindex: Makeindex development sources
+i makeindex.x86_64-linuxmusl: x86_64-linuxmusl files of makeindex
+i manfnt-font: Knuth's "manual" fonts
+i marvosym: Martin Vogel's Symbols (marvosym) font
+i mathcommand: \newcommand-like commands for defining math macros
+i mathpazo: Fonts to typeset mathematics to match Palatino
+i mathspec: Specify arbitrary fonts for mathematics in XeTeX
+i mathtools: Mathematical tools to use with amsmath
+i mdwtools: Miscellaneous tools by Mark Wooding
+i memoir: Typeset fiction, non-fiction and mathematical books
+i metafont: A system for specifying fonts
+i metafont.x86_64-linuxmusl: x86_64-linuxmusl files of metafont
+i metalogo: Extended TeX logo macros
+i mflogo: LaTeX support for Metafont logo fonts
+i mflogo-font: Metafont logo font
+i mfnfss: Packages to typeset oldgerman and pandora fonts in LaTeX
+i mfware: Supporting tools for use with Metafont
+i mfware.x86_64-linuxmusl: x86_64-linuxmusl files of mfware
+i microtype: Subliminal refinements towards typographical perfection
+i mleftright: Variants of delimiters that act as maths open/close
+i modes: A collection of Metafont mode_def's
+i mptopdf: mpost to PDF, native MetaPost graphics inclusion
+i mptopdf.x86_64-linuxmusl: x86_64-linuxmusl files of mptopdf
+i ms: Various LaTeX packages by Martin Schroder
+i natbib: Flexible bibliography support
+i ncntrsbk: URW 'Base 35' font pack for LaTeX
+i newfloat: Define new floating environments
+i ntgclass: "European" versions of standard classes
+i oberdiek: A bundle of packages submitted by Heiko Oberdiek
+i pagesel: Select pages of a document for output
+i palatino: URW 'Base 35' font pack for LaTeX
+i parskip: Layout with zero \parindent, non-zero \parskip
+i pdfcolfoot: Separate color stack for footnotes with pdfTeX
+i pdfescape: Implements pdfTeX's escape features using TeX or e-TeX
+i pdflscape: Make landscape pages display as landscape
+i pdfmanagement-testphase: LaTeX PDF management testphase bundle
+i pdfpages: Include PDF documents in LaTeX
+i pdftex: A TeX extension for direct creation of PDF
+i pdftex.x86_64-linuxmusl: x86_64-linuxmusl files of pdftex
+i pdftexcmds: LuaTeX support for pdfTeX utility functions
+i pgf: Create PostScript and PDF graphics in TeX
+i plain: The Plain TeX format
+i polyglossia: An alternative to babel for XeLaTeX and LuaLaTeX
+i psfrag: Replace strings in encapsulated PostScript figures
+i pslatex: Use PostScript fonts by default
+i psnfss: Font support for common PostScript fonts
+i pspicture: PostScript picture support
+i pxfonts: Palatino-like fonts in support of mathematics
+i ragged2e: Alternative versions of "ragged"-type commands
+i rcs: Use RCS (revision control system) tags in LaTeX documents
+i refcount: Counter operations with label references
+i rerunfilecheck: Checksum based rerun checks on auxiliary files
+i rsfs: Ralph Smith's Formal Script font
+i sansmath: Maths in a sans font
+i scheme-basic: basic scheme (plain and latex)
+i scheme-infraonly: infrastructure-only scheme (no TeX at all)
+i scheme-minimal: minimal scheme (plain only)
+i section: Modifying section commands in LaTeX
+i seminar: Make overhead slides
+i sepnum: Print numbers in a "friendly" format
+i setspace: Set space between lines
+i stringenc: Converting a string between different encodings
+i subfig: Figures broken into subfigures
+i symbol: URW 'Base 35' font pack for LaTeX
+i synctex: engine-level feature synchronizing output and source
+i synctex.x86_64-linuxmusl: x86_64-linuxmusl files of synctex
+i tex: A sophisticated typesetting engine
+i tex-gyre: TeX Fonts extending freely available URW fonts
+i tex-gyre-math: Maths fonts to match tex-gyre text fonts
+i tex-ini-files: Model TeX format creation files
+i tex.x86_64-linuxmusl: x86_64-linuxmusl files of tex
+i texcount: Count words in a LaTeX document
+i texcount.x86_64-linuxmusl: x86_64-linuxmusl files of texcount
+i texlive-common: TeX Live documentation (common elements)
+i texlive-en: TeX Live manual (English)
+i texlive-msg-translations: translations of the TeX Live installer and TeX Live Manager
+i texlive-scripts: TeX Live infrastructure programs
+i texlive-scripts.x86_64-linuxmusl: x86_64-linuxmusl files of texlive-scripts
+i texlive.infra: basic TeX Live infrastructure
+i texlive.infra.x86_64-linuxmusl: x86_64-linuxmusl files of texlive.infra
+i textcase: Case conversion ignoring mathematics, etc
+i thumbpdf: Thumbnails for pdfTeX and dvips/ps2pdf
+i thumbpdf.x86_64-linuxmusl: x86_64-linuxmusl files of thumbpdf
+i times: URW 'Base 35' font pack for LaTeX
+i tipa: Fonts and macros for IPA phonetics characters
+i tlshell: GUI frontend (tcl/tk-based) for tlmgr
+i tlshell.x86_64-linuxmusl: x86_64-linuxmusl files of tlshell
+i tools: The LaTeX standard tools bundle
+i translator: Easy translation of strings in LaTeX
+i txfonts: Times-like fonts in support of mathematics
+i typehtml: Typeset HTML directly from LaTeX
+i ucharcat: Implementation of the (new in 2015) XeTeX \Ucharcat command in lua, for LuaTeX
+i ulem: Package for underlining
+i underscore: Control the behaviour of "_" in text
+i unicode-data: Unicode data and loaders for TeX
+i unicode-math: Unicode mathematics support for XeTeX and LuaTeX
+i unicode-math-input: Allow entering Unicode symbols in math formulas
+i uniquecounter: Provides unlimited unique counter
+i url: Verbatim with URL-sensitive line breaks
+i utopia: Adobe Utopia fonts
+i wasy: The wasy fonts (Waldi symbol fonts)
+i wasy-type1: Type 1 versions of wasy fonts
+i wasysym: LaTeX support for the wasy fonts
+i xcolor: Driver-independent color extensions for LaTeX and pdfLaTeX
+i xdvi: A DVI previewer for the X Window System
+i xdvi.x86_64-linuxmusl: x86_64-linuxmusl files of xdvi
+i xkeyval: Extension of the keyval package
+i xltxtra: "Extras" for LaTeX users of XeTeX
+i xunicode: Generate Unicode characters from accented glyphs
+i zapfchan: URW 'Base 35' font pack for LaTeX
+i zapfding: URW 'Base 35' font pack for LaTeX
+i ae: Virtual fonts for T1 encoded CMR-fonts
+i amscls: AMS document classes for LaTeX
+i amsfonts: TeX fonts from the American Mathematical Society
+i amsmath: AMS mathematical facilities for LaTeX
+i anysize: A simple package to set up document margins
+i atbegshi: Execute stuff at \shipout time
+i attachfile2: Attach files into PDF
+i attachfile2.x86_64-linuxmusl: x86_64-linuxmusl files of attachfile2
+i atveryend: Hooks at the very end of a document
+i auxhook: Hooks for auxiliary files
+i avantgar: URW 'Base 35' font pack for LaTeX
+i babel: Multilingual support for LaTeX, LuaLaTeX, XeLaTeX, and Plain TeX
+i babel-english: Babel support for English
+i babelbib: Multilingual bibliographies
+i beamer: A LaTeX class for producing presentations and slides
+i biber: A BibTeX replacement for users of BibLaTeX
+i biber.x86_64-linuxmusl: x86_64-linuxmusl files of biber
+i biblatex: Sophisticated Bibliographies in LaTeX
+i bibtex: Process bibliographies (bib files) for LaTeX or other formats
+i bibtex.x86_64-linuxmusl: x86_64-linuxmusl files of bibtex
+i bigintcalc: Integer calculations on very large numbers
+i bitset: Handle bit-vector datatype
+i bookman: URW 'Base 35' font pack for LaTeX
+i bookmark: A new bookmark (outline) organization for hyperref
+i booktabs: Publication quality tables in LaTeX
+i breqn: Automatic line breaking of displayed equations
+i bxpapersize: Synchronize output paper size with layout paper size
+i cancel: Place lines through maths formulae
+i caption: Customising captions in floating environments
+i carlisle: David Carlisle's small packages
+i charter: Charter fonts
+i chktex: Check for errors in LaTeX documents
+i chktex.x86_64-linuxmusl: x86_64-linuxmusl files of chktex
+i cite: Improved citation handling in LaTeX
+i cm: Computer Modern fonts
+i cm-super: CM-Super family of fonts
+i cmap: Make PDF files searchable and copyable
+i cmextra: Knuth's local information
+i collection-basic: Essential programs and files
+i collection-fontsrecommended: Recommended fonts
+i collection-latex: LaTeX fundamental packages
+i collection-latexrecommended: LaTeX recommended packages
+i colorprofiles: Collection of free ICC profiles
+i colortbl: Add colour to LaTeX tables
+i courier: URW 'Base 35' font pack for LaTeX
+i crop: Support for cropmarks
+i ctable: Flexible typesetting of table and figure floats using key/value directives
+i dehyph: German hyphenation patterns for traditional orthography
+i docmute: Input files ignoring LaTeX preamble, etc
+i dvipdfmx: An extended version of dvipdfm
+i dvipdfmx.x86_64-linuxmusl: x86_64-linuxmusl files of dvipdfmx
+i dvips: A DVI to PostScript driver
+i dvips.x86_64-linuxmusl: x86_64-linuxmusl files of dvips
+i ec: Computer modern fonts in T1 and TS1 encodings
+i enctex: A TeX extension that translates input on its way into TeX
+i epstopdf-pkg: Call epstopdf "on the fly"
+i eqparbox: Create equal-widthed parboxes
+i eso-pic: Add picture commands (or backgrounds) to every page
+i etex: An extended version of TeX, from the NTS project
+i etex-pkg: E-TeX support package
+i etexcmds: Avoid name clashes with e-TeX commands
+i etoolbox: e-TeX tools for LaTeX
+i euenc: Unicode font encoding definitions for XeTeX
+i euler: Use AMS Euler fonts for math
+i euro: Provide Euro values for national currency amounts
+i euro-ce: Euro and CE sign font
+i eurosym: Metafont and macros for Euro sign
+i everysel: Provides hooks into \selectfont
+i everyshi: Take action at every \shipout
+i extsizes: Extend the standard classes' size options
+i fancybox: Variants of \fbox and other games with boxes
+i fancyhdr: Extensive control of page headers and footers in LaTeX2e
+i fancyref: A LaTeX package for fancy cross-referencing
+i fancyvrb: Sophisticated verbatim text
+i filehook: Hooks for input files
+i firstaid: First aid for external LaTeX files and packages that need updating
+i fix2col: Fix miscellaneous two column mode features
+i float: Improved interface for floating objects
+i fontspec: Advanced font selection in XeLaTeX and LuaLaTeX
+i footmisc: A range of footnote options
+i footnotehyper: hyperref aware footnote.sty
+i fp: Fixed point arithmetic
+i fpl: SC and OsF fonts for URW Palladio L
+i geometry: Flexible and complete interface to document dimensions
+i gettitlestring: Clean up title references
+i glyphlist: Adobe Glyph List and TeX extensions
+i graphics: The LaTeX standard graphics bundle
+i graphics-cfg: Sample configuration files for LaTeX color and graphics
+i graphics-def: Colour and graphics option files
+i grfext: Manipulate the graphics package's list of extensions
+i grffile: Extended file name support for graphics (legacy package)
+i helvetic: URW 'Base 35' font pack for LaTeX
+i hologo: A collection of logos with bookmark support
+i hopatch: Load patches for packages
+i hycolor: Implements colour for packages hyperref and bookmark
+i hyperref: Extensive support for hypertext in LaTeX
+i hyph-utf8: Hyphenation patterns expressed in UTF-8
+i hyphen-base: core hyphenation support files
+i hyphenex: US English hyphenation exceptions file
+i ifplatform: Conditionals to test which platform is being used
+i iftex: Am I running under pdfTeX, XeTeX or LuaTeX?
+i index: Extended index for LaTeX including multiple indexes
+i infwarerr: Complete set of information/warning/error message macros
+i intcalc: Expandable arithmetic operations with integers
+i jknapltx: Miscellaneous packages by Joerg Knappen
+i knuth-lib: Core TeX and Metafont sources from Knuth
+i knuth-local: Knuth's local information
+i koma-script: A bundle of versatile classes and packages
+i kpathsea: Path searching library for TeX-related files
+i kpathsea.x86_64-linuxmusl: x86_64-linuxmusl files of kpathsea
+i kvdefinekeys: Define keys for use in the kvsetkeys package
+i kvoptions: Key value format for package options
+i kvsetkeys: Key value parser with default handler support
+i l3backend: LaTeX3 backend drivers
+i l3experimental: Experimental LaTeX3 concepts
+i l3kernel: LaTeX3 programming conventions
+i l3packages: High-level LaTeX3 concepts
+i lacheck: LaTeX checker
+i lacheck.x86_64-linuxmusl: x86_64-linuxmusl files of lacheck
+i latex: A TeX macro package that defines LaTeX
+i latex-bin: LaTeX executables and man pages
+i latex-bin.x86_64-linuxmusl: x86_64-linuxmusl files of latex-bin
+i latex-fonts: A collection of fonts used in LaTeX distributions
+i latex-lab: LaTeX laboratory
+i latexbug: Bug-classification for LaTeX related bugs
+i latexconfig: configuration files for LaTeX-related formats
+i latexdiff: Determine and mark up significant differences between LaTeX files
+i latexdiff.x86_64-linuxmusl: x86_64-linuxmusl files of latexdiff
+i latexindent: Indent a LaTeX document, highlighting the programming structure
+i latexindent.x86_64-linuxmusl: x86_64-linuxmusl files of latexindent
+i latexmk: Fully automated LaTeX document generation
+i latexmk.x86_64-linuxmusl: x86_64-linuxmusl files of latexmk
+i latexpand: Expand \input and \include in a LaTeX document
+i latexpand.x86_64-linuxmusl: x86_64-linuxmusl files of latexpand
+i letltxmacro: Let assignment for LaTeX macros
+i lineno: Line numbers on paragraphs
+i listings: Typeset source code listings using LaTeX
+i lm: Latin modern fonts in outline formats
+i lm-math: OpenType maths fonts for Latin Modern
+i logreq: Support for automation of the LaTeX workflow
+i ltxcmds: Some LaTeX kernel commands for general use
+i ltxmisc: Miscellaneous LaTeX packages, etc
+i lua-alt-getopt: Process application arguments the same way as getopt_long
+i lua-uni-algos: Unicode algorithms for LuaTeX
+i luahbtex: LuaTeX with HarfBuzz library for glyph shaping
+i luahbtex.x86_64-linuxmusl: x86_64-linuxmusl files of luahbtex
+i lualatex-math: Fixes for mathematics-related LuaLaTeX issues
+i lualibs: Additional Lua functions for LuaTeX macro programmers
+i luaotfload: OpenType 'loader' for Plain TeX and LaTeX
+i luaotfload.x86_64-linuxmusl: x86_64-linuxmusl files of luaotfload
+i luatex: The LuaTeX engine
+i luatex.x86_64-linuxmusl: x86_64-linuxmusl files of luatex
+i lwarp: Converts LaTeX to HTML
+i lwarp.x86_64-linuxmusl: x86_64-linuxmusl files of lwarp
+i makecmds: The new \makecommand command always (re)defines a command
+i makeindex: Makeindex development sources
+i makeindex.x86_64-linuxmusl: x86_64-linuxmusl files of makeindex
+i manfnt-font: Knuth's "manual" fonts
+i marvosym: Martin Vogel's Symbols (marvosym) font
+i mathcommand: \newcommand-like commands for defining math macros
+i mathpazo: Fonts to typeset mathematics to match Palatino
+i mathspec: Specify arbitrary fonts for mathematics in XeTeX
+i mathtools: Mathematical tools to use with amsmath
+i mdwtools: Miscellaneous tools by Mark Wooding
+i memoir: Typeset fiction, non-fiction and mathematical books
+i metafont: A system for specifying fonts
+i metafont.x86_64-linuxmusl: x86_64-linuxmusl files of metafont
+i metalogo: Extended TeX logo macros
+i mflogo: LaTeX support for Metafont logo fonts
+i mflogo-font: Metafont logo font
+i mfnfss: Packages to typeset oldgerman and pandora fonts in LaTeX
+i mfware: Supporting tools for use with Metafont
+i mfware.x86_64-linuxmusl: x86_64-linuxmusl files of mfware
+i microtype: Subliminal refinements towards typographical perfection
+i mleftright: Variants of delimiters that act as maths open/close
+i modes: A collection of Metafont mode_def's
+i mptopdf: mpost to PDF, native MetaPost graphics inclusion
+i mptopdf.x86_64-linuxmusl: x86_64-linuxmusl files of mptopdf
+i ms: Various LaTeX packages by Martin Schroder
+i natbib: Flexible bibliography support
+i ncntrsbk: URW 'Base 35' font pack for LaTeX
+i newfloat: Define new floating environments
+i ntgclass: "European" versions of standard classes
+i oberdiek: A bundle of packages submitted by Heiko Oberdiek
+i pagesel: Select pages of a document for output
+i palatino: URW 'Base 35' font pack for LaTeX
+i parskip: Layout with zero \parindent, non-zero \parskip
+i pdfcolfoot: Separate color stack for footnotes with pdfTeX
+i pdfescape: Implements pdfTeX's escape features using TeX or e-TeX
+i pdflscape: Make landscape pages display as landscape
+i pdfmanagement-testphase: LaTeX PDF management testphase bundle
+i pdfpages: Include PDF documents in LaTeX
+i pdftex: A TeX extension for direct creation of PDF
+i pdftex.x86_64-linuxmusl: x86_64-linuxmusl files of pdftex
+i pdftexcmds: LuaTeX support for pdfTeX utility functions
+i pgf: Create PostScript and PDF graphics in TeX
+i plain: The Plain TeX format
+i polyglossia: An alternative to babel for XeLaTeX and LuaLaTeX
+i psfrag: Replace strings in encapsulated PostScript figures
+i pslatex: Use PostScript fonts by default
+i psnfss: Font support for common PostScript fonts
+i pspicture: PostScript picture support
+i pxfonts: Palatino-like fonts in support of mathematics
+i ragged2e: Alternative versions of "ragged"-type commands
+i rcs: Use RCS (revision control system) tags in LaTeX documents
+i refcount: Counter operations with label references
+i rerunfilecheck: Checksum based rerun checks on auxiliary files
+i rsfs: Ralph Smith's Formal Script font
+i sansmath: Maths in a sans font
+i scheme-basic: basic scheme (plain and latex)
+i scheme-infraonly: infrastructure-only scheme (no TeX at all)
+i scheme-minimal: minimal scheme (plain only)
+i section: Modifying section commands in LaTeX
+i seminar: Make overhead slides
+i sepnum: Print numbers in a "friendly" format
+i setspace: Set space between lines
+i stringenc: Converting a string between different encodings
+i subfig: Figures broken into subfigures
+i symbol: URW 'Base 35' font pack for LaTeX
+i synctex: engine-level feature synchronizing output and source
+i synctex.x86_64-linuxmusl: x86_64-linuxmusl files of synctex
+i tex: A sophisticated typesetting engine
+i tex-gyre: TeX Fonts extending freely available URW fonts
+i tex-gyre-math: Maths fonts to match tex-gyre text fonts
+i tex-ini-files: Model TeX format creation files
+i tex.x86_64-linuxmusl: x86_64-linuxmusl files of tex
+i texcount: Count words in a LaTeX document
+i texcount.x86_64-linuxmusl: x86_64-linuxmusl files of texcount
+i texlive-common: TeX Live documentation (common elements)
+i texlive-en: TeX Live manual (English)
+i texlive-msg-translations: translations of the TeX Live installer and TeX Live Manager
+i texlive-scripts: TeX Live infrastructure programs
+i texlive-scripts.x86_64-linuxmusl: x86_64-linuxmusl files of texlive-scripts
+i texlive.infra: basic TeX Live infrastructure
+i texlive.infra.x86_64-linuxmusl: x86_64-linuxmusl files of texlive.infra
+i textcase: Case conversion ignoring mathematics, etc
+i thumbpdf: Thumbnails for pdfTeX and dvips/ps2pdf
+i thumbpdf.x86_64-linuxmusl: x86_64-linuxmusl files of thumbpdf
+i times: URW 'Base 35' font pack for LaTeX
+i tipa: Fonts and macros for IPA phonetics characters
+i tlshell: GUI frontend (tcl/tk-based) for tlmgr
+i tlshell.x86_64-linuxmusl: x86_64-linuxmusl files of tlshell
+i tools: The LaTeX standard tools bundle
+i translator: Easy translation of strings in LaTeX
+i txfonts: Times-like fonts in support of mathematics
+i typehtml: Typeset HTML directly from LaTeX
+i ucharcat: Implementation of the (new in 2015) XeTeX \Ucharcat command in lua, for LuaTeX
+i ulem: Package for underlining
+i underscore: Control the behaviour of "_" in text
+i unicode-data: Unicode data and loaders for TeX
+i unicode-math: Unicode mathematics support for XeTeX and LuaTeX
+i unicode-math-input: Allow entering Unicode symbols in math formulas
+i uniquecounter: Provides unlimited unique counter
+i url: Verbatim with URL-sensitive line breaks
+i utopia: Adobe Utopia fonts
+i wasy: The wasy fonts (Waldi symbol fonts)
+i wasy-type1: Type 1 versions of wasy fonts
+i wasysym: LaTeX support for the wasy fonts
+i xcolor: Driver-independent color extensions for LaTeX and pdfLaTeX
+i xdvi: A DVI previewer for the X Window System
+i xdvi.x86_64-linuxmusl: x86_64-linuxmusl files of xdvi
+i xkeyval: Extension of the keyval package
+i xltxtra: "Extras" for LaTeX users of XeTeX
+i xunicode: Generate Unicode characters from accented glyphs
+i zapfchan: URW 'Base 35' font pack for LaTeX
+i zapfding: URW 'Base 35' font pack for LaTeX
+i ae: Virtual fonts for T1 encoded CMR-fonts
+i amscls: AMS document classes for LaTeX
+i amsfonts: TeX fonts from the American Mathematical Society
+i amsmath: AMS mathematical facilities for LaTeX
+i anysize: A simple package to set up document margins
+i atbegshi: Execute stuff at \shipout time
+i attachfile2: Attach files into PDF
+i attachfile2.x86_64-linuxmusl: x86_64-linuxmusl files of attachfile2
+i atveryend: Hooks at the very end of a document
+i auxhook: Hooks for auxiliary files
+i avantgar: URW 'Base 35' font pack for LaTeX
+i babel: Multilingual support for LaTeX, LuaLaTeX, XeLaTeX, and Plain TeX
+i babel-english: Babel support for English
+i babelbib: Multilingual bibliographies
+i beamer: A LaTeX class for producing presentations and slides
+i biber: A BibTeX replacement for users of BibLaTeX
+i biber.x86_64-linuxmusl: x86_64-linuxmusl files of biber
+i biblatex: Sophisticated Bibliographies in LaTeX
+i bibtex: Process bibliographies (bib files) for LaTeX or other formats
+i bibtex.x86_64-linuxmusl: x86_64-linuxmusl files of bibtex
+i bigintcalc: Integer calculations on very large numbers
+i bitset: Handle bit-vector datatype
+i bookman: URW 'Base 35' font pack for LaTeX
+i bookmark: A new bookmark (outline) organization for hyperref
+i booktabs: Publication quality tables in LaTeX
+i breqn: Automatic line breaking of displayed equations
+i bxpapersize: Synchronize output paper size with layout paper size
+i cancel: Place lines through maths formulae
+i caption: Customising captions in floating environments
+i carlisle: David Carlisle's small packages
+i charter: Charter fonts
+i chktex: Check for errors in LaTeX documents
+i chktex.x86_64-linuxmusl: x86_64-linuxmusl files of chktex
+i cite: Improved citation handling in LaTeX
+i cm: Computer Modern fonts
+i cm-super: CM-Super family of fonts
+i cmap: Make PDF files searchable and copyable
+i cmextra: Knuth's local information
+i collection-basic: Essential programs and files
+i collection-fontsrecommended: Recommended fonts
+i collection-latex: LaTeX fundamental packages
+i collection-latexrecommended: LaTeX recommended packages
+i colorprofiles: Collection of free ICC profiles
+i colortbl: Add colour to LaTeX tables
+i courier: URW 'Base 35' font pack for LaTeX
+i crop: Support for cropmarks
+i ctable: Flexible typesetting of table and figure floats using key/value directives
+i dehyph: German hyphenation patterns for traditional orthography
+i docmute: Input files ignoring LaTeX preamble, etc
+i dvipdfmx: An extended version of dvipdfm
+i dvipdfmx.x86_64-linuxmusl: x86_64-linuxmusl files of dvipdfmx
+i dvips: A DVI to PostScript driver
+i dvips.x86_64-linuxmusl: x86_64-linuxmusl files of dvips
+i ec: Computer modern fonts in T1 and TS1 encodings
+i enctex: A TeX extension that translates input on its way into TeX
+i epstopdf-pkg: Call epstopdf "on the fly"
+i eqparbox: Create equal-widthed parboxes
+i eso-pic: Add picture commands (or backgrounds) to every page
+i etex: An extended version of TeX, from the NTS project
+i etex-pkg: E-TeX support package
+i etexcmds: Avoid name clashes with e-TeX commands
+i etoolbox: e-TeX tools for LaTeX
+i euenc: Unicode font encoding definitions for XeTeX
+i euler: Use AMS Euler fonts for math
+i euro: Provide Euro values for national currency amounts
+i euro-ce: Euro and CE sign font
+i eurosym: Metafont and macros for Euro sign
+i everysel: Provides hooks into \selectfont
+i everyshi: Take action at every \shipout
+i extsizes: Extend the standard classes' size options
+i fancybox: Variants of \fbox and other games with boxes
+i fancyhdr: Extensive control of page headers and footers in LaTeX2e
+i fancyref: A LaTeX package for fancy cross-referencing
+i fancyvrb: Sophisticated verbatim text
+i filehook: Hooks for input files
+i firstaid: First aid for external LaTeX files and packages that need updating
+i fix2col: Fix miscellaneous two column mode features
+i float: Improved interface for floating objects
+i fontspec: Advanced font selection in XeLaTeX and LuaLaTeX
+i footmisc: A range of footnote options
+i footnotehyper: hyperref aware footnote.sty
+i fp: Fixed point arithmetic
+i fpl: SC and OsF fonts for URW Palladio L
+i geometry: Flexible and complete interface to document dimensions
+i gettitlestring: Clean up title references
+i glyphlist: Adobe Glyph List and TeX extensions
+i graphics: The LaTeX standard graphics bundle
+i graphics-cfg: Sample configuration files for LaTeX color and graphics
+i graphics-def: Colour and graphics option files
+i grfext: Manipulate the graphics package's list of extensions
+i grffile: Extended file name support for graphics (legacy package)
+i helvetic: URW 'Base 35' font pack for LaTeX
+i hologo: A collection of logos with bookmark support
+i hopatch: Load patches for packages
+i hycolor: Implements colour for packages hyperref and bookmark
+i hyperref: Extensive support for hypertext in LaTeX
+i hyph-utf8: Hyphenation patterns expressed in UTF-8
+i hyphen-base: core hyphenation support files
+i hyphenex: US English hyphenation exceptions file
+i ifplatform: Conditionals to test which platform is being used
+i iftex: Am I running under pdfTeX, XeTeX or LuaTeX?
+i index: Extended index for LaTeX including multiple indexes
+i infwarerr: Complete set of information/warning/error message macros
+i intcalc: Expandable arithmetic operations with integers
+i jknapltx: Miscellaneous packages by Joerg Knappen
+i knuth-lib: Core TeX and Metafont sources from Knuth
+i knuth-local: Knuth's local information
+i koma-script: A bundle of versatile classes and packages
+i kpathsea: Path searching library for TeX-related files
+i kpathsea.x86_64-linuxmusl: x86_64-linuxmusl files of kpathsea
+i kvdefinekeys: Define keys for use in the kvsetkeys package
+i kvoptions: Key value format for package options
+i kvsetkeys: Key value parser with default handler support
+i l3backend: LaTeX3 backend drivers
+i l3experimental: Experimental LaTeX3 concepts
+i l3kernel: LaTeX3 programming conventions
+i l3packages: High-level LaTeX3 concepts
+i lacheck: LaTeX checker
+i lacheck.x86_64-linuxmusl: x86_64-linuxmusl files of lacheck
+i latex: A TeX macro package that defines LaTeX
+i latex-bin: LaTeX executables and man pages
+i latex-bin.x86_64-linuxmusl: x86_64-linuxmusl files of latex-bin
+i latex-fonts: A collection of fonts used in LaTeX distributions
+i latex-lab: LaTeX laboratory
+i latexbug: Bug-classification for LaTeX related bugs
+i latexconfig: configuration files for LaTeX-related formats
+i latexdiff: Determine and mark up significant differences between LaTeX files
+i latexdiff.x86_64-linuxmusl: x86_64-linuxmusl files of latexdiff
+i latexindent: Indent a LaTeX document, highlighting the programming structure
+i latexindent.x86_64-linuxmusl: x86_64-linuxmusl files of latexindent
+i latexmk: Fully automated LaTeX document generation
+i latexmk.x86_64-linuxmusl: x86_64-linuxmusl files of latexmk
+i latexpand: Expand \input and \include in a LaTeX document
+i latexpand.x86_64-linuxmusl: x86_64-linuxmusl files of latexpand
+i letltxmacro: Let assignment for LaTeX macros
+i lineno: Line numbers on paragraphs
+i listings: Typeset source code listings using LaTeX
+i lm: Latin modern fonts in outline formats
+i lm-math: OpenType maths fonts for Latin Modern
+i logreq: Support for automation of the LaTeX workflow
+i ltxcmds: Some LaTeX kernel commands for general use
+i ltxmisc: Miscellaneous LaTeX packages, etc
+i lua-alt-getopt: Process application arguments the same way as getopt_long
+i lua-uni-algos: Unicode algorithms for LuaTeX
+i luahbtex: LuaTeX with HarfBuzz library for glyph shaping
+i luahbtex.x86_64-linuxmusl: x86_64-linuxmusl files of luahbtex
+i lualatex-math: Fixes for mathematics-related LuaLaTeX issues
+i lualibs: Additional Lua functions for LuaTeX macro programmers
+i luaotfload: OpenType 'loader' for Plain TeX and LaTeX
+i luaotfload.x86_64-linuxmusl: x86_64-linuxmusl files of luaotfload
+i luatex: The LuaTeX engine
+i luatex.x86_64-linuxmusl: x86_64-linuxmusl files of luatex
+i lwarp: Converts LaTeX to HTML
+i lwarp.x86_64-linuxmusl: x86_64-linuxmusl files of lwarp
+i makecmds: The new \makecommand command always (re)defines a command
+i makeindex: Makeindex development sources
+i makeindex.x86_64-linuxmusl: x86_64-linuxmusl files of makeindex
+i manfnt-font: Knuth's "manual" fonts
+i marvosym: Martin Vogel's Symbols (marvosym) font
+i mathcommand: \newcommand-like commands for defining math macros
+i mathpazo: Fonts to typeset mathematics to match Palatino
+i mathspec: Specify arbitrary fonts for mathematics in XeTeX
+i mathtools: Mathematical tools to use with amsmath
+i mdwtools: Miscellaneous tools by Mark Wooding
+i memoir: Typeset fiction, non-fiction and mathematical books
+i metafont: A system for specifying fonts
+i metafont.x86_64-linuxmusl: x86_64-linuxmusl files of metafont
+i metalogo: Extended TeX logo macros
+i mflogo: LaTeX support for Metafont logo fonts
+i mflogo-font: Metafont logo font
+i mfnfss: Packages to typeset oldgerman and pandora fonts in LaTeX
+i mfware: Supporting tools for use with Metafont
+i mfware.x86_64-linuxmusl: x86_64-linuxmusl files of mfware
+i microtype: Subliminal refinements towards typographical perfection
+i mleftright: Variants of delimiters that act as maths open/close
+i modes: A collection of Metafont mode_def's
+i mptopdf: mpost to PDF, native MetaPost graphics inclusion
+i mptopdf.x86_64-linuxmusl: x86_64-linuxmusl files of mptopdf
+i ms: Various LaTeX packages by Martin Schroder
+i natbib: Flexible bibliography support
+i ncntrsbk: URW 'Base 35' font pack for LaTeX
+i newfloat: Define new floating environments
+i ntgclass: "European" versions of standard classes
+i oberdiek: A bundle of packages submitted by Heiko Oberdiek
+i pagesel: Select pages of a document for output
+i palatino: URW 'Base 35' font pack for LaTeX
+i parskip: Layout with zero \parindent, non-zero \parskip
+i pdfcolfoot: Separate color stack for footnotes with pdfTeX
+i pdfescape: Implements pdfTeX's escape features using TeX or e-TeX
+i pdflscape: Make landscape pages display as landscape
+i pdfmanagement-testphase: LaTeX PDF management testphase bundle
+i pdfpages: Include PDF documents in LaTeX
+i pdftex: A TeX extension for direct creation of PDF
+i pdftex.x86_64-linuxmusl: x86_64-linuxmusl files of pdftex
+i pdftexcmds: LuaTeX support for pdfTeX utility functions
+i pgf: Create PostScript and PDF graphics in TeX
+i plain: The Plain TeX format
+i polyglossia: An alternative to babel for XeLaTeX and LuaLaTeX
+i psfrag: Replace strings in encapsulated PostScript figures
+i pslatex: Use PostScript fonts by default
+i psnfss: Font support for common PostScript fonts
+i pspicture: PostScript picture support
+i pxfonts: Palatino-like fonts in support of mathematics
+i ragged2e: Alternative versions of "ragged"-type commands
+i rcs: Use RCS (revision control system) tags in LaTeX documents
+i refcount: Counter operations with label references
+i rerunfilecheck: Checksum based rerun checks on auxiliary files
+i rsfs: Ralph Smith's Formal Script font
+i sansmath: Maths in a sans font
+i scheme-basic: basic scheme (plain and latex)
+i scheme-infraonly: infrastructure-only scheme (no TeX at all)
+i scheme-minimal: minimal scheme (plain only)
+i section: Modifying section commands in LaTeX
+i seminar: Make overhead slides
+i sepnum: Print numbers in a "friendly" format
+i setspace: Set space between lines
+i stringenc: Converting a string between different encodings
+i subfig: Figures broken into subfigures
+i symbol: URW 'Base 35' font pack for LaTeX
+i synctex: engine-level feature synchronizing output and source
+i synctex.x86_64-linuxmusl: x86_64-linuxmusl files of synctex
+i tex: A sophisticated typesetting engine
+i tex-gyre: TeX Fonts extending freely available URW fonts
+i tex-gyre-math: Maths fonts to match tex-gyre text fonts
+i tex-ini-files: Model TeX format creation files
+i tex.x86_64-linuxmusl: x86_64-linuxmusl files of tex
+i texcount: Count words in a LaTeX document
+i texcount.x86_64-linuxmusl: x86_64-linuxmusl files of texcount
+i texlive-common: TeX Live documentation (common elements)
+i texlive-en: TeX Live manual (English)
+i texlive-msg-translations: translations of the TeX Live installer and TeX Live Manager
+i texlive-scripts: TeX Live infrastructure programs
+i texlive-scripts.x86_64-linuxmusl: x86_64-linuxmusl files of texlive-scripts
+i texlive.infra: basic TeX Live infrastructure
+i texlive.infra.x86_64-linuxmusl: x86_64-linuxmusl files of texlive.infra
+i textcase: Case conversion ignoring mathematics, etc
+i thumbpdf: Thumbnails for pdfTeX and dvips/ps2pdf
+i thumbpdf.x86_64-linuxmusl: x86_64-linuxmusl files of thumbpdf
+i times: URW 'Base 35' font pack for LaTeX
+i tipa: Fonts and macros for IPA phonetics characters
+i tlshell: GUI frontend (tcl/tk-based) for tlmgr
+i tlshell.x86_64-linuxmusl: x86_64-linuxmusl files of tlshell
+i tools: The LaTeX standard tools bundle
+i translator: Easy translation of strings in LaTeX
+i txfonts: Times-like fonts in support of mathematics
+i typehtml: Typeset HTML directly from LaTeX
+i ucharcat: Implementation of the (new in 2015) XeTeX \Ucharcat command in lua, for LuaTeX
+i ulem: Package for underlining
+i underscore: Control the behaviour of "_" in text
+i unicode-data: Unicode data and loaders for TeX
+i unicode-math: Unicode mathematics support for XeTeX and LuaTeX
+i unicode-math-input: Allow entering Unicode symbols in math formulas
+i uniquecounter: Provides unlimited unique counter
+i url: Verbatim with URL-sensitive line breaks
+i utopia: Adobe Utopia fonts
+i wasy: The wasy fonts (Waldi symbol fonts)
+i wasy-type1: Type 1 versions of wasy fonts
+i wasysym: LaTeX support for the wasy fonts
+i xcolor: Driver-independent color extensions for LaTeX and pdfLaTeX
+i xdvi: A DVI previewer for the X Window System
+i xdvi.x86_64-linuxmusl: x86_64-linuxmusl files of xdvi
+i xkeyval: Extension of the keyval package
+i xltxtra: "Extras" for LaTeX users of XeTeX
+i xunicode: Generate Unicode characters from accented glyphs
+i zapfchan: URW 'Base 35' font pack for LaTeX
+i zapfding: URW 'Base 35' font pack for LaTeX
+i ae: Virtual fonts for T1 encoded CMR-fonts
+i amscls: AMS document classes for LaTeX
+i amsfonts: TeX fonts from the American Mathematical Society
+i amsmath: AMS mathematical facilities for LaTeX
+i anysize: A simple package to set up document margins
+i atbegshi: Execute stuff at \shipout time
+i attachfile2: Attach files into PDF
+i attachfile2.x86_64-linuxmusl: x86_64-linuxmusl files of attachfile2
+i atveryend: Hooks at the very end of a document
+i auxhook: Hooks for auxiliary files
+i avantgar: URW 'Base 35' font pack for LaTeX
+i babel: Multilingual support for LaTeX, LuaLaTeX, XeLaTeX, and Plain TeX
+i babel-english: Babel support for English
+i babelbib: Multilingual bibliographies
+i beamer: A LaTeX class for producing presentations and slides
+i biber: A BibTeX replacement for users of BibLaTeX
+i biber.x86_64-linuxmusl: x86_64-linuxmusl files of biber
+i biblatex: Sophisticated Bibliographies in LaTeX
+i bibtex: Process bibliographies (bib files) for LaTeX or other formats
+i bibtex.x86_64-linuxmusl: x86_64-linuxmusl files of bibtex
+i bigintcalc: Integer calculations on very large numbers
+i bitset: Handle bit-vector datatype
+i bookman: URW 'Base 35' font pack for LaTeX
+i bookmark: A new bookmark (outline) organization for hyperref
+i booktabs: Publication quality tables in LaTeX
+i breqn: Automatic line breaking of displayed equations
+i bxpapersize: Synchronize output paper size with layout paper size
+i cancel: Place lines through maths formulae
+i caption: Customising captions in floating environments
+i carlisle: David Carlisle's small packages
+i charter: Charter fonts
+i chktex: Check for errors in LaTeX documents
+i chktex.x86_64-linuxmusl: x86_64-linuxmusl files of chktex
+i cite: Improved citation handling in LaTeX
+i cm: Computer Modern fonts
+i cm-super: CM-Super family of fonts
+i cmap: Make PDF files searchable and copyable
+i cmextra: Knuth's local information
+i collection-basic: Essential programs and files
+i collection-fontsrecommended: Recommended fonts
+i collection-latex: LaTeX fundamental packages
+i collection-latexrecommended: LaTeX recommended packages
+i colorprofiles: Collection of free ICC profiles
+i colortbl: Add colour to LaTeX tables
+i courier: URW 'Base 35' font pack for LaTeX
+i crop: Support for cropmarks
+i ctable: Flexible typesetting of table and figure floats using key/value directives
+i dehyph: German hyphenation patterns for traditional orthography
+i docmute: Input files ignoring LaTeX preamble, etc
+i dvipdfmx: An extended version of dvipdfm
+i dvipdfmx.x86_64-linuxmusl: x86_64-linuxmusl files of dvipdfmx
+i dvips: A DVI to PostScript driver
+i dvips.x86_64-linuxmusl: x86_64-linuxmusl files of dvips
+i ec: Computer modern fonts in T1 and TS1 encodings
+i enctex: A TeX extension that translates input on its way into TeX
+i epstopdf-pkg: Call epstopdf "on the fly"
+i eqparbox: Create equal-widthed parboxes
+i eso-pic: Add picture commands (or backgrounds) to every page
+i etex: An extended version of TeX, from the NTS project
+i etex-pkg: E-TeX support package
+i etexcmds: Avoid name clashes with e-TeX commands
+i etoolbox: e-TeX tools for LaTeX
+i euenc: Unicode font encoding definitions for XeTeX
+i euler: Use AMS Euler fonts for math
+i euro: Provide Euro values for national currency amounts
+i euro-ce: Euro and CE sign font
+i eurosym: Metafont and macros for Euro sign
+i everysel: Provides hooks into \selectfont
+i everyshi: Take action at every \shipout
+i extsizes: Extend the standard classes' size options
+i fancybox: Variants of \fbox and other games with boxes
+i fancyhdr: Extensive control of page headers and footers in LaTeX2e
+i fancyref: A LaTeX package for fancy cross-referencing
+i fancyvrb: Sophisticated verbatim text
+i filehook: Hooks for input files
+i firstaid: First aid for external LaTeX files and packages that need updating
+i fix2col: Fix miscellaneous two column mode features
+i float: Improved interface for floating objects
+i fontspec: Advanced font selection in XeLaTeX and LuaLaTeX
+i footmisc: A range of footnote options
+i footnotehyper: hyperref aware footnote.sty
+i fp: Fixed point arithmetic
+i fpl: SC and OsF fonts for URW Palladio L
+i geometry: Flexible and complete interface to document dimensions
+i gettitlestring: Clean up title references
+i glyphlist: Adobe Glyph List and TeX extensions
+i graphics: The LaTeX standard graphics bundle
+i graphics-cfg: Sample configuration files for LaTeX color and graphics
+i graphics-def: Colour and graphics option files
+i grfext: Manipulate the graphics package's list of extensions
+i grffile: Extended file name support for graphics (legacy package)
+i helvetic: URW 'Base 35' font pack for LaTeX
+i hologo: A collection of logos with bookmark support
+i hopatch: Load patches for packages
+i hycolor: Implements colour for packages hyperref and bookmark
+i hyperref: Extensive support for hypertext in LaTeX
+i hyph-utf8: Hyphenation patterns expressed in UTF-8
+i hyphen-base: core hyphenation support files
+i hyphenex: US English hyphenation exceptions file
+i ifplatform: Conditionals to test which platform is being used
+i iftex: Am I running under pdfTeX, XeTeX or LuaTeX?
+i index: Extended index for LaTeX including multiple indexes
+i infwarerr: Complete set of information/warning/error message macros
+i intcalc: Expandable arithmetic operations with integers
+i jknapltx: Miscellaneous packages by Joerg Knappen
+i knuth-lib: Core TeX and Metafont sources from Knuth
+i knuth-local: Knuth's local information
+i koma-script: A bundle of versatile classes and packages
+i kpathsea: Path searching library for TeX-related files
+i kpathsea.x86_64-linuxmusl: x86_64-linuxmusl files of kpathsea
+i kvdefinekeys: Define keys for use in the kvsetkeys package
+i kvoptions: Key value format for package options
+i kvsetkeys: Key value parser with default handler support
+i l3backend: LaTeX3 backend drivers
+i l3experimental: Experimental LaTeX3 concepts
+i l3kernel: LaTeX3 programming conventions
+i l3packages: High-level LaTeX3 concepts
+i lacheck: LaTeX checker
+i lacheck.x86_64-linuxmusl: x86_64-linuxmusl files of lacheck
+i latex: A TeX macro package that defines LaTeX
+i latex-bin: LaTeX executables and man pages
+i latex-bin.x86_64-linuxmusl: x86_64-linuxmusl files of latex-bin
+i latex-fonts: A collection of fonts used in LaTeX distributions
+i latex-lab: LaTeX laboratory
+i latexbug: Bug-classification for LaTeX related bugs
+i latexconfig: configuration files for LaTeX-related formats
+i latexdiff: Determine and mark up significant differences between LaTeX files
+i latexdiff.x86_64-linuxmusl: x86_64-linuxmusl files of latexdiff
+i latexindent: Indent a LaTeX document, highlighting the programming structure
+i latexindent.x86_64-linuxmusl: x86_64-linuxmusl files of latexindent
+i latexmk: Fully automated LaTeX document generation
+i latexmk.x86_64-linuxmusl: x86_64-linuxmusl files of latexmk
+i latexpand: Expand \input and \include in a LaTeX document
+i latexpand.x86_64-linuxmusl: x86_64-linuxmusl files of latexpand
+i letltxmacro: Let assignment for LaTeX macros
+i lineno: Line numbers on paragraphs
+i listings: Typeset source code listings using LaTeX
+i lm: Latin modern fonts in outline formats
+i lm-math: OpenType maths fonts for Latin Modern
+i logreq: Support for automation of the LaTeX workflow
+i ltxcmds: Some LaTeX kernel commands for general use
+i ltxmisc: Miscellaneous LaTeX packages, etc
+i lua-alt-getopt: Process application arguments the same way as getopt_long
+i lua-uni-algos: Unicode algorithms for LuaTeX
+i luahbtex: LuaTeX with HarfBuzz library for glyph shaping
+i luahbtex.x86_64-linuxmusl: x86_64-linuxmusl files of luahbtex
+i lualatex-math: Fixes for mathematics-related LuaLaTeX issues
+i lualibs: Additional Lua functions for LuaTeX macro programmers
+i luaotfload: OpenType 'loader' for Plain TeX and LaTeX
+i luaotfload.x86_64-linuxmusl: x86_64-linuxmusl files of luaotfload
+i luatex: The LuaTeX engine
+i luatex.x86_64-linuxmusl: x86_64-linuxmusl files of luatex
+i lwarp: Converts LaTeX to HTML
+i lwarp.x86_64-linuxmusl: x86_64-linuxmusl files of lwarp
+i makecmds: The new \makecommand command always (re)defines a command
+i makeindex: Makeindex development sources
+i makeindex.x86_64-linuxmusl: x86_64-linuxmusl files of makeindex
+i manfnt-font: Knuth's "manual" fonts
+i marvosym: Martin Vogel's Symbols (marvosym) font
+i mathcommand: \newcommand-like commands for defining math macros
+i mathpazo: Fonts to typeset mathematics to match Palatino
+i mathspec: Specify arbitrary fonts for mathematics in XeTeX
+i mathtools: Mathematical tools to use with amsmath
+i mdwtools: Miscellaneous tools by Mark Wooding
+i memoir: Typeset fiction, non-fiction and mathematical books
+i metafont: A system for specifying fonts
+i metafont.x86_64-linuxmusl: x86_64-linuxmusl files of metafont
+i metalogo: Extended TeX logo macros
+i mflogo: LaTeX support for Metafont logo fonts
+i mflogo-font: Metafont logo font
+i mfnfss: Packages to typeset oldgerman and pandora fonts in LaTeX
+i mfware: Supporting tools for use with Metafont
+i mfware.x86_64-linuxmusl: x86_64-linuxmusl files of mfware
+i microtype: Subliminal refinements towards typographical perfection
+i mleftright: Variants of delimiters that act as maths open/close
+i modes: A collection of Metafont mode_def's
+i mptopdf: mpost to PDF, native MetaPost graphics inclusion
+i mptopdf.x86_64-linuxmusl: x86_64-linuxmusl files of mptopdf
+i ms: Various LaTeX packages by Martin Schroder
+i natbib: Flexible bibliography support
+i ncntrsbk: URW 'Base 35' font pack for LaTeX
+i newfloat: Define new floating environments
+i ntgclass: "European" versions of standard classes
+i oberdiek: A bundle of packages submitted by Heiko Oberdiek
+i pagesel: Select pages of a document for output
+i palatino: URW 'Base 35' font pack for LaTeX
+i parskip: Layout with zero \parindent, non-zero \parskip
+i pdfcolfoot: Separate color stack for footnotes with pdfTeX
+i pdfescape: Implements pdfTeX's escape features using TeX or e-TeX
+i pdflscape: Make landscape pages display as landscape
+i pdfmanagement-testphase: LaTeX PDF management testphase bundle
+i pdfpages: Include PDF documents in LaTeX
+i pdftex: A TeX extension for direct creation of PDF
+i pdftex.x86_64-linuxmusl: x86_64-linuxmusl files of pdftex
+i pdftexcmds: LuaTeX support for pdfTeX utility functions
+i pgf: Create PostScript and PDF graphics in TeX
+i plain: The Plain TeX format
+i polyglossia: An alternative to babel for XeLaTeX and LuaLaTeX
+i psfrag: Replace strings in encapsulated PostScript figures
+i pslatex: Use PostScript fonts by default
+i psnfss: Font support for common PostScript fonts
+i pspicture: PostScript picture support
+i pxfonts: Palatino-like fonts in support of mathematics
+i ragged2e: Alternative versions of "ragged"-type commands
+i rcs: Use RCS (revision control system) tags in LaTeX documents
+i refcount: Counter operations with label references
+i rerunfilecheck: Checksum based rerun checks on auxiliary files
+i rsfs: Ralph Smith's Formal Script font
+i sansmath: Maths in a sans font
+i scheme-basic: basic scheme (plain and latex)
+i scheme-infraonly: infrastructure-only scheme (no TeX at all)
+i scheme-minimal: minimal scheme (plain only)
+i section: Modifying section commands in LaTeX
+i seminar: Make overhead slides
+i sepnum: Print numbers in a "friendly" format
+i setspace: Set space between lines
+i stringenc: Converting a string between different encodings
+i subfig: Figures broken into subfigures
+i symbol: URW 'Base 35' font pack for LaTeX
+i synctex: engine-level feature synchronizing output and source
+i synctex.x86_64-linuxmusl: x86_64-linuxmusl files of synctex
+i tex: A sophisticated typesetting engine
+i tex-gyre: TeX Fonts extending freely available URW fonts
+i tex-gyre-math: Maths fonts to match tex-gyre text fonts
+i tex-ini-files: Model TeX format creation files
+i tex.x86_64-linuxmusl: x86_64-linuxmusl files of tex
+i texcount: Count words in a LaTeX document
+i texcount.x86_64-linuxmusl: x86_64-linuxmusl files of texcount
+i texlive-common: TeX Live documentation (common elements)
+i texlive-en: TeX Live manual (English)
+i texlive-msg-translations: translations of the TeX Live installer and TeX Live Manager
+i texlive-scripts: TeX Live infrastructure programs
+i texlive-scripts.x86_64-linuxmusl: x86_64-linuxmusl files of texlive-scripts
+i texlive.infra: basic TeX Live infrastructure
+i texlive.infra.x86_64-linuxmusl: x86_64-linuxmusl files of texlive.infra
+i textcase: Case conversion ignoring mathematics, etc
+i thumbpdf: Thumbnails for pdfTeX and dvips/ps2pdf
+i thumbpdf.x86_64-linuxmusl: x86_64-linuxmusl files of thumbpdf
+i times: URW 'Base 35' font pack for LaTeX
+i tipa: Fonts and macros for IPA phonetics characters
+i tlshell: GUI frontend (tcl/tk-based) for tlmgr
+i tlshell.x86_64-linuxmusl: x86_64-linuxmusl files of tlshell
+i tools: The LaTeX standard tools bundle
+i translator: Easy translation of strings in LaTeX
+i txfonts: Times-like fonts in support of mathematics
+i typehtml: Typeset HTML directly from LaTeX
+i ucharcat: Implementation of the (new in 2015) XeTeX \Ucharcat command in lua, for LuaTeX
+i ulem: Package for underlining
+i underscore: Control the behaviour of "_" in text
+i unicode-data: Unicode data and loaders for TeX
+i unicode-math: Unicode mathematics support for XeTeX and LuaTeX
+i unicode-math-input: Allow entering Unicode symbols in math formulas
+i uniquecounter: Provides unlimited unique counter
+i url: Verbatim with URL-sensitive line breaks
+i utopia: Adobe Utopia fonts
+i wasy: The wasy fonts (Waldi symbol fonts)
+i wasy-type1: Type 1 versions of wasy fonts
+i wasysym: LaTeX support for the wasy fonts
+i xcolor: Driver-independent color extensions for LaTeX and pdfLaTeX
+i xdvi: A DVI previewer for the X Window System
+i xdvi.x86_64-linuxmusl: x86_64-linuxmusl files of xdvi
+i xkeyval: Extension of the keyval package
+i xltxtra: "Extras" for LaTeX users of XeTeX
+i xunicode: Generate Unicode characters from accented glyphs
+i zapfchan: URW 'Base 35' font pack for LaTeX
+i zapfding: URW 'Base 35' font pack for LaTeX
+i ae: Virtual fonts for T1 encoded CMR-fonts
+i amscls: AMS document classes for LaTeX
+i amsfonts: TeX fonts from the American Mathematical Society
+i amsmath: AMS mathematical facilities for LaTeX
+i anysize: A simple package to set up document margins
+i atbegshi: Execute stuff at \shipout time
+i attachfile2: Attach files into PDF
+i attachfile2.x86_64-linuxmusl: x86_64-linuxmusl files of attachfile2
+i atveryend: Hooks at the very end of a document
+i auxhook: Hooks for auxiliary files
+i avantgar: URW 'Base 35' font pack for LaTeX
+i babel: Multilingual support for LaTeX, LuaLaTeX, XeLaTeX, and Plain TeX
+i babel-english: Babel support for English
+i babelbib: Multilingual bibliographies
+i beamer: A LaTeX class for producing presentations and slides
+i biber: A BibTeX replacement for users of BibLaTeX
+i biber.x86_64-linuxmusl: x86_64-linuxmusl files of biber
+i biblatex: Sophisticated Bibliographies in LaTeX
+i bibtex: Process bibliographies (bib files) for LaTeX or other formats
+i bibtex.x86_64-linuxmusl: x86_64-linuxmusl files of bibtex
+i bigintcalc: Integer calculations on very large numbers
+i bitset: Handle bit-vector datatype
+i bookman: URW 'Base 35' font pack for LaTeX
+i bookmark: A new bookmark (outline) organization for hyperref
+i booktabs: Publication quality tables in LaTeX
+i breqn: Automatic line breaking of displayed equations
+i bxpapersize: Synchronize output paper size with layout paper size
+i cancel: Place lines through maths formulae
+i caption: Customising captions in floating environments
+i carlisle: David Carlisle's small packages
+i charter: Charter fonts
+i chktex: Check for errors in LaTeX documents
+i chktex.x86_64-linuxmusl: x86_64-linuxmusl files of chktex
+i cite: Improved citation handling in LaTeX
+i cm: Computer Modern fonts
+i cm-super: CM-Super family of fonts
+i cmap: Make PDF files searchable and copyable
+i cmextra: Knuth's local information
+i collection-basic: Essential programs and files
+i collection-fontsrecommended: Recommended fonts
+i collection-latex: LaTeX fundamental packages
+i collection-latexrecommended: LaTeX recommended packages
+i colorprofiles: Collection of free ICC profiles
+i colortbl: Add colour to LaTeX tables
+i courier: URW 'Base 35' font pack for LaTeX
+i crop: Support for cropmarks
+i ctable: Flexible typesetting of table and figure floats using key/value directives
+i dehyph: German hyphenation patterns for traditional orthography
+i docmute: Input files ignoring LaTeX preamble, etc
+i dvipdfmx: An extended version of dvipdfm
+i dvipdfmx.x86_64-linuxmusl: x86_64-linuxmusl files of dvipdfmx
+i dvips: A DVI to PostScript driver
+i dvips.x86_64-linuxmusl: x86_64-linuxmusl files of dvips
+i ec: Computer modern fonts in T1 and TS1 encodings
+i enctex: A TeX extension that translates input on its way into TeX
+i epstopdf-pkg: Call epstopdf "on the fly"
+i eqparbox: Create equal-widthed parboxes
+i eso-pic: Add picture commands (or backgrounds) to every page
+i etex: An extended version of TeX, from the NTS project
+i etex-pkg: E-TeX support package
+i etexcmds: Avoid name clashes with e-TeX commands
+i etoolbox: e-TeX tools for LaTeX
+i euenc: Unicode font encoding definitions for XeTeX
+i euler: Use AMS Euler fonts for math
+i euro: Provide Euro values for national currency amounts
+i euro-ce: Euro and CE sign font
+i eurosym: Metafont and macros for Euro sign
+i everysel: Provides hooks into \selectfont
+i everyshi: Take action at every \shipout
+i extsizes: Extend the standard classes' size options
+i fancybox: Variants of \fbox and other games with boxes
+i fancyhdr: Extensive control of page headers and footers in LaTeX2e
+i fancyref: A LaTeX package for fancy cross-referencing
+i fancyvrb: Sophisticated verbatim text
+i filehook: Hooks for input files
+i firstaid: First aid for external LaTeX files and packages that need updating
+i fix2col: Fix miscellaneous two column mode features
+i float: Improved interface for floating objects
+i fontspec: Advanced font selection in XeLaTeX and LuaLaTeX
+i footmisc: A range of footnote options
+i footnotehyper: hyperref aware footnote.sty
+i fp: Fixed point arithmetic
+i fpl: SC and OsF fonts for URW Palladio L
+i geometry: Flexible and complete interface to document dimensions
+i gettitlestring: Clean up title references
+i glyphlist: Adobe Glyph List and TeX extensions
+i graphics: The LaTeX standard graphics bundle
+i graphics-cfg: Sample configuration files for LaTeX color and graphics
+i graphics-def: Colour and graphics option files
+i grfext: Manipulate the graphics package's list of extensions
+i grffile: Extended file name support for graphics (legacy package)
+i helvetic: URW 'Base 35' font pack for LaTeX
+i hologo: A collection of logos with bookmark support
+i hopatch: Load patches for packages
+i hycolor: Implements colour for packages hyperref and bookmark
+i hyperref: Extensive support for hypertext in LaTeX
+i hyph-utf8: Hyphenation patterns expressed in UTF-8
+i hyphen-base: core hyphenation support files
+i hyphenex: US English hyphenation exceptions file
+i ifplatform: Conditionals to test which platform is being used
+i iftex: Am I running under pdfTeX, XeTeX or LuaTeX?
+i index: Extended index for LaTeX including multiple indexes
+i infwarerr: Complete set of information/warning/error message macros
+i intcalc: Expandable arithmetic operations with integers
+i jknapltx: Miscellaneous packages by Joerg Knappen
+i knuth-lib: Core TeX and Metafont sources from Knuth
+i knuth-local: Knuth's local information
+i koma-script: A bundle of versatile classes and packages
+i kpathsea: Path searching library for TeX-related files
+i kpathsea.x86_64-linuxmusl: x86_64-linuxmusl files of kpathsea
+i kvdefinekeys: Define keys for use in the kvsetkeys package
+i kvoptions: Key value format for package options
+i kvsetkeys: Key value parser with default handler support
+i l3backend: LaTeX3 backend drivers
+i l3experimental: Experimental LaTeX3 concepts
+i l3kernel: LaTeX3 programming conventions
+i l3packages: High-level LaTeX3 concepts
+i lacheck: LaTeX checker
+i lacheck.x86_64-linuxmusl: x86_64-linuxmusl files of lacheck
+i latex: A TeX macro package that defines LaTeX
+i latex-bin: LaTeX executables and man pages
+i latex-bin.x86_64-linuxmusl: x86_64-linuxmusl files of latex-bin
+i latex-fonts: A collection of fonts used in LaTeX distributions
+i latex-lab: LaTeX laboratory
+i latexbug: Bug-classification for LaTeX related bugs
+i latexconfig: configuration files for LaTeX-related formats
+i latexdiff: Determine and mark up significant differences between LaTeX files
+i latexdiff.x86_64-linuxmusl: x86_64-linuxmusl files of latexdiff
+i latexindent: Indent a LaTeX document, highlighting the programming structure
+i latexindent.x86_64-linuxmusl: x86_64-linuxmusl files of latexindent
+i latexmk: Fully automated LaTeX document generation
+i latexmk.x86_64-linuxmusl: x86_64-linuxmusl files of latexmk
+i latexpand: Expand \input and \include in a LaTeX document
+i latexpand.x86_64-linuxmusl: x86_64-linuxmusl files of latexpand
+i letltxmacro: Let assignment for LaTeX macros
+i lineno: Line numbers on paragraphs
+i listings: Typeset source code listings using LaTeX
+i lm: Latin modern fonts in outline formats
+i lm-math: OpenType maths fonts for Latin Modern
+i logreq: Support for automation of the LaTeX workflow
+i ltxcmds: Some LaTeX kernel commands for general use
+i ltxmisc: Miscellaneous LaTeX packages, etc
+i lua-alt-getopt: Process application arguments the same way as getopt_long
+i lua-uni-algos: Unicode algorithms for LuaTeX
+i luahbtex: LuaTeX with HarfBuzz library for glyph shaping
+i luahbtex.x86_64-linuxmusl: x86_64-linuxmusl files of luahbtex
+i lualatex-math: Fixes for mathematics-related LuaLaTeX issues
+i lualibs: Additional Lua functions for LuaTeX macro programmers
+i luaotfload: OpenType 'loader' for Plain TeX and LaTeX
+i luaotfload.x86_64-linuxmusl: x86_64-linuxmusl files of luaotfload
+i luatex: The LuaTeX engine
+i luatex.x86_64-linuxmusl: x86_64-linuxmusl files of luatex
+i lwarp: Converts LaTeX to HTML
+i lwarp.x86_64-linuxmusl: x86_64-linuxmusl files of lwarp
+i makecmds: The new \makecommand command always (re)defines a command
+i makeindex: Makeindex development sources
+i makeindex.x86_64-linuxmusl: x86_64-linuxmusl files of makeindex
+i manfnt-font: Knuth's "manual" fonts
+i marvosym: Martin Vogel's Symbols (marvosym) font
+i mathcommand: \newcommand-like commands for defining math macros
+i mathpazo: Fonts to typeset mathematics to match Palatino
+i mathspec: Specify arbitrary fonts for mathematics in XeTeX
+i mathtools: Mathematical tools to use with amsmath
+i mdwtools: Miscellaneous tools by Mark Wooding
+i memoir: Typeset fiction, non-fiction and mathematical books
+i metafont: A system for specifying fonts
+i metafont.x86_64-linuxmusl: x86_64-linuxmusl files of metafont
+i metalogo: Extended TeX logo macros
+i mflogo: LaTeX support for Metafont logo fonts
+i mflogo-font: Metafont logo font
+i mfnfss: Packages to typeset oldgerman and pandora fonts in LaTeX
+i mfware: Supporting tools for use with Metafont
+i mfware.x86_64-linuxmusl: x86_64-linuxmusl files of mfware
+i microtype: Subliminal refinements towards typographical perfection
+i mleftright: Variants of delimiters that act as maths open/close
+i modes: A collection of Metafont mode_def's
+i mptopdf: mpost to PDF, native MetaPost graphics inclusion
+i mptopdf.x86_64-linuxmusl: x86_64-linuxmusl files of mptopdf
+i ms: Various LaTeX packages by Martin Schroder
+i natbib: Flexible bibliography support
+i ncntrsbk: URW 'Base 35' font pack for LaTeX
+i newfloat: Define new floating environments
+i ntgclass: "European" versions of standard classes
+i oberdiek: A bundle of packages submitted by Heiko Oberdiek
+i pagesel: Select pages of a document for output
+i palatino: URW 'Base 35' font pack for LaTeX
+i parskip: Layout with zero \parindent, non-zero \parskip
+i pdfcolfoot: Separate color stack for footnotes with pdfTeX
+i pdfescape: Implements pdfTeX's escape features using TeX or e-TeX
+i pdflscape: Make landscape pages display as landscape
+i pdfmanagement-testphase: LaTeX PDF management testphase bundle
+i pdfpages: Include PDF documents in LaTeX
+i pdftex: A TeX extension for direct creation of PDF
+i pdftex.x86_64-linuxmusl: x86_64-linuxmusl files of pdftex
+i pdftexcmds: LuaTeX support for pdfTeX utility functions
+i pgf: Create PostScript and PDF graphics in TeX
+i plain: The Plain TeX format
+i polyglossia: An alternative to babel for XeLaTeX and LuaLaTeX
+i psfrag: Replace strings in encapsulated PostScript figures
+i pslatex: Use PostScript fonts by default
+i psnfss: Font support for common PostScript fonts
+i pspicture: PostScript picture support
+i pxfonts: Palatino-like fonts in support of mathematics
+i ragged2e: Alternative versions of "ragged"-type commands
+i rcs: Use RCS (revision control system) tags in LaTeX documents
+i refcount: Counter operations with label references
+i rerunfilecheck: Checksum based rerun checks on auxiliary files
+i rsfs: Ralph Smith's Formal Script font
+i sansmath: Maths in a sans font
+i scheme-basic: basic scheme (plain and latex)
+i scheme-infraonly: infrastructure-only scheme (no TeX at all)
+i scheme-minimal: minimal scheme (plain only)
+i section: Modifying section commands in LaTeX
+i seminar: Make overhead slides
+i sepnum: Print numbers in a "friendly" format
+i setspace: Set space between lines
+i stringenc: Converting a string between different encodings
+i subfig: Figures broken into subfigures
+i symbol: URW 'Base 35' font pack for LaTeX
+i synctex: engine-level feature synchronizing output and source
+i synctex.x86_64-linuxmusl: x86_64-linuxmusl files of synctex
+i tex: A sophisticated typesetting engine
+i tex-gyre: TeX Fonts extending freely available URW fonts
+i tex-gyre-math: Maths fonts to match tex-gyre text fonts
+i tex-ini-files: Model TeX format creation files
+i tex.x86_64-linuxmusl: x86_64-linuxmusl files of tex
+i texcount: Count words in a LaTeX document
+i texcount.x86_64-linuxmusl: x86_64-linuxmusl files of texcount
+i texlive-common: TeX Live documentation (common elements)
+i texlive-en: TeX Live manual (English)
+i texlive-msg-translations: translations of the TeX Live installer and TeX Live Manager
+i texlive-scripts: TeX Live infrastructure programs
+i texlive-scripts.x86_64-linuxmusl: x86_64-linuxmusl files of texlive-scripts
+i texlive.infra: basic TeX Live infrastructure
+i texlive.infra.x86_64-linuxmusl: x86_64-linuxmusl files of texlive.infra
+i textcase: Case conversion ignoring mathematics, etc
+i thumbpdf: Thumbnails for pdfTeX and dvips/ps2pdf
+i thumbpdf.x86_64-linuxmusl: x86_64-linuxmusl files of thumbpdf
+i times: URW 'Base 35' font pack for LaTeX
+i tipa: Fonts and macros for IPA phonetics characters
+i tlshell: GUI frontend (tcl/tk-based) for tlmgr
+i tlshell.x86_64-linuxmusl: x86_64-linuxmusl files of tlshell
+i tools: The LaTeX standard tools bundle
+i translator: Easy translation of strings in LaTeX
+i txfonts: Times-like fonts in support of mathematics
+i typehtml: Typeset HTML directly from LaTeX
+i ucharcat: Implementation of the (new in 2015) XeTeX \Ucharcat command in lua, for LuaTeX
+i ulem: Package for underlining
+i underscore: Control the behaviour of "_" in text
+i unicode-data: Unicode data and loaders for TeX
+i unicode-math: Unicode mathematics support for XeTeX and LuaTeX
+i unicode-math-input: Allow entering Unicode symbols in math formulas
+i uniquecounter: Provides unlimited unique counter
+i url: Verbatim with URL-sensitive line breaks
+i utopia: Adobe Utopia fonts
+i wasy: The wasy fonts (Waldi symbol fonts)
+i wasy-type1: Type 1 versions of wasy fonts
+i wasysym: LaTeX support for the wasy fonts
+i xcolor: Driver-independent color extensions for LaTeX and pdfLaTeX
+i xdvi: A DVI previewer for the X Window System
+i xdvi.x86_64-linuxmusl: x86_64-linuxmusl files of xdvi
+i xkeyval: Extension of the keyval package
+i xltxtra: "Extras" for LaTeX users of XeTeX
+i xunicode: Generate Unicode characters from accented glyphs
+i zapfchan: URW 'Base 35' font pack for LaTeX
+i zapfding: URW 'Base 35' font pack for LaTeX

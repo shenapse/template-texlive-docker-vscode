@@ -14,7 +14,6 @@
 		"hsnips.hsnipsPath": "/workdir/.vscode"
 	},
 	"shutdownAction": "stopCompose",
-	// locate hsnips file
 	"onCreateCommand": "sh ./script/setup-hsnips.sh",
-	"postStartCommand": "sh ./script/post-install.sh"
+	"postStartCommand": "sh ./script/post-install.sh & source ./.bashrc_docker"
 }
